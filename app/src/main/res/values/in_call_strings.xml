@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+		Copyright (C) 2010 Regis Montoya (aka r3gis - www.r3gis.fr)
+	
+		This file is part of CSipSimple. CSipSimple is free software: you can
+		redistribute it and/or modify it under the terms of the GNU General
+		Public License as published by the Free Software Foundation, either
+		version 3 of the License, or (at your option) any later version.
+
+		CSipSimple is distributed in the hope that it will be useful, but
+		WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details. You should have received a
+		copy of the GNU General Public License along with CSipSimple. If not,
+		see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="take_call">Slide to Answer</string>
+    <string name="ignore_call">Ignore</string>
+    <string name="clear_call">End</string>
+    <!--<string name="bluetooth">BlueTooth</string>-->
+    <string name="call_state_calling">Ringing…</string>
+    <string name="call_state_confirmed">Talking</string>
+<!--    <string name="call_state_connecting">SS Audio...</string>-->
+    <string name="call_state_connecting">Calling…</string>
+    <string name="call_state_disconnected">SS Audio ended</string>
+    <string name="call_state_early">Ringing…</string>
+    <string name="call_state_incoming">Incoming…</string>
+    <string name="call_state_null">ERROR</string>
+    <string name="unlock">Unlock</string>
+    <string name="on_hold">On Hold</string>
+    <string name="on_resume">Call Resume</string>
+    <string name="transport_secure_to_server">TLS transport is used for immediate hop</string>
+    <string name="transport_secure_full">End-to-end signaling is supposed secure</string>
+    <string name="description_direction_right">Right</string>
+    <string name="description_direction_left">Left</string>
+    <string name="description_direction_up">Up</string>
+
+</resources>

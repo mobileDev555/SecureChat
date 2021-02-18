@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">SS Chat</string>
+
+    <string name="navigation_drawer_open">Open de navigatielade</string>
+    <string name="navigation_drawer_close">Sluit de navigatielade</string>
+
+    <string name="action_settings">instellingen</string>
+
+    <string name="fragment_chat">Chat</string>
+    <string name="fragment_contact">Contacten</string>
+    <string name="fragment_vault">Vault</string>
+    <string name="fragment_setting">@string/action_settings</string>
+    <string name="title_activity_chat_window">ChatWindowActivity</string>
+    <string name="title_activity_group_chat_window">GroupChatWindowActivity</string>
+    <string name="dialog_alert_title">Aandacht</string>
+
+    <string name="permission_rationale_message">U hebt ons afgewezen om autorisatie aan te vragen, akkoord gaat met toestemming, anders kan de functie niet normaal worden gebruikt!</string>
+    <string name="permission_denied_forever_message">We hebben enkele van de toestemmingen nodig die u hebt geweigerd of het systeem kon niet worden toegepast, is mislukt. Stel de pagina handmatig in, anders kan de functie niet normaal worden gebruikt!</string>
+    <string name="camera_and_location_rationale">Deze toestemming is vereist om afbeeldingen te delen.</string>
+    <string name="title_message_notification">Nieuwe melding (s)</string>
+
+    <!-- Burn Time Array List -->
+    <array name="burn_time">
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""12</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""45</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""40</item>
+        <item>""50</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""12</item>
+        <item>""18</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+
+    </array>
+
+    <string name="title_activity_photo_view">Afbeeldingen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_contact_details">ContactDetailsActivity</string>
+
+    <string name="uploading">Geupload op [[UPLOADED_FILES]] of [[TOTAL_FILES]] op [[UPLOAD_RATE]] - [[PROGRESS]]</string>
+    <string name="upload_success">Upload voltooid in [[ELAPSED_TIME]]</string>
+    <string name="upload_error">Fout tijdens uploaden</string>
+    <string name="upload_cancelled">Upload is geannuleerd</string>
+    <string name="cancel_upload">Annuleer</string>
+
+    <string name="you_cant_send_messages_group">Je kunt geen berichten naar deze groep verzenden omdat je geen lid meer bent van de groep.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="send">verstuur</string>
+    <string name="name">Naam</string>
+    <string name="ecc_id">ECC ID</string>
+    <string name="group_name">Groepsnaam</string>
+    <string name="delete">Verwijderen</string>
+    <string name="voice_call">Spraakoproep</string>
+    <string name="change_name">Verander naam</string>
+    <string name="send_message">Stuur bericht</string>
+    <string name="_00_00">00:00</string>
+    <string name="slide_to_cancel">Schuif om te annuleren</string>
+    <string name="group_name_colon">Groepsnaam :</string>
+    <string name="create_group">Maak een groep</string>
+    <string name="title">Titel:</string>
+    <string name="body">Lichaam:</string>
+    <string name="title_simple">Titel</string>
+    <string name="body_simple">Lichaam</string>
+    <string name="leave_group">Verlaat groep</string>
+    <string name="cancel">@string/cancel_upload</string>
+    <string name="add_contact">Contact toevoegen</string>
+    <string name="ecc_id_colon">ECC ID :</string>
+    <string name="alias_colon">Alias :</string>
+    <string name="save">opslaan</string>
+    <string name="pictures">Afbeeldingen</string>
+    <string name="camera">Camera</string>
+    <string name="contacts">Contacten</string>
+    <string name="notes">Notities</string>
+    <string name="change_group_name">Verander groep naam</string>
+    <string name="update">Update</string>
+    <string name="screen_name_colon">Scherm naam :</string>
+    <string name="name_colon">Naam :</string>
+    <string name="destruct_time">Vernietigingstijd</string>
+    <string name="you_are_on_the_last_attemp_if_incorrect_your_data_will_be_security_wiped">U bent bij de laatste poging. Als dit onjuist is, worden uw gegevens gewist</string>
+    <string name="ok">OK</string>
+
+    <string name="message">Bericht</string>
+    <string name="discard">Annuleer</string>
+    <string name="delete_all">Verwijder alles</string>
+    <string name="loading">Bezig met laden&#8230;</string>
+    <string name="please_wait">Even geduld aub&#8230;</string>
+    <string name="license_key">License Key</string>
+    <string name="activate">Activeren</string>
+    <string name="chat">CHAT</string>
+    <string name="password">Wachtwoord</string>
+    <string name="set_screen_name_and_password">Stel schermnaam en wachtwoord in</string>
+    <string name="screen_name">scherm naam</string>
+    <string name="confirm_password">bevestig wachtwoord</string>
+    <string name="profile_settings">Profiel instellingen</string>
+    <string name="max_password_attempts">Maximale wachtwoordpogingen:</string>
+    <string name="select_ringtone">Selecteer Ringtone:</string>
+    <string name="default_word">Standaard</string>
+    <string name="font_size_colon">Lettertypegrootte:</string>
+    <string name="medium">Medium</string>
+    <string name="account_settings">Account instellingen</string>
+    <string name="lock_time_colon">Lock Time:</string>
+    <string name="immediately">Per direct</string>
+    <string name="account_password_colon">Account wachtwoord:</string>
+    <string name="star_series">********</string>
+    <string name="current_password">huidig ​​wachtwoord</string>
+    <string name="new_password">nieuw paswoord</string>
+    <string name="enter_key_to_send_message_colon">Enter Toets om bericht te verzenden:</string>
+    <string name="duress_password_colon">Duress wachtwoord:</string>
+    <string name="duress_password">Dwang wachtwoord</string>
+    <string name="ecc_public_key_colon">Ecc openbare sleutel:</string>
+    <string name="ecc_public_keys">ECC openbare sleutels</string>
+    <string name="chats">Chats</string>
+    <string name="username">UserName</string>
+    <string name="audio">Audio</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="_10_22_pm">10:22 PM</string>
+    <string name="contact_single">Contact</string>
+    <string name="image">Beeld</string>
+    <string name="personal_note">Persoonlijke notitie</string>
+    <string name="video">Video</string>
+    <string name="admin">ADMIN</string>
+    <string name="rename">Andere naam geven</string>
+    <string name="vault">Gewelf</string>
+    <string name="settings">@string/action_settings</string>
+    <string name="clear_cache">Cache wissen</string>
+    <string name="lock">Slot</string>
+    <string name="search">Zoeken</string>
+    <string name="new_message">Nieuw bericht</string>
+    <string name="destruct_timer">Destruct timer</string>
+    <string name="mute_notification">Notificatie negeren</string>
+    <string name="group_information">Groep informatie</string>
+    <string name="share_from_vault">Deel uit Vault</string>
+    <string name="personal_notes">Persoonlijke notities</string>
+    <string name="chat_messages">Chat berichten</string>
+    <string name="save_to_vault">Opslaan in kluis</string>
+    <string name="forward">Doorsturen</string>
+    <string name="copy">Kopiëren</string>
+    <string name="add_member">Lid toevoegen</string>
+    <string name="edit_group_name">Wijzig groepsnaam</string>
+    <string name="remove_from_group">Verwijder uit de groep</string>
+    <string name="edit">Bewerk</string>
+    <string name="share">Delen</string>
+    <string name="password_field_is_required">Wachtwoordveld is verplicht.</string>
+    <string name="confirm_password_field_is_required">Bevestig wachtwoordveld is verplicht.</string>
+    <string name="password_must_contain_at_least_one_digit_one_lowercase_one_uppercase_one_special_character">Wachtwoord moet minimaal één cijfer, één kleine letter, één hoofdletter, één speciaal teken bevatten</string>
+    <string name="required">Verplicht</string>
+    <string name="incorrect_current_password_please_try_again">Onjuist huidig ​​wachtwoord. Probeer het opnieuw.</string>
+    <string name="new_password_should_be_different_from_old_password">Nieuw wachtwoord moet anders zijn dan het oude wachtwoord.</string>
+    <string name="duress_password_should_be_different_from_application_password">Dwangwachtwoord moet anders zijn dan applicatiewachtwoord</string>
+    <string name="application_password_should_be_different_from_duress_password">Toepassingswachtwoord moet anders zijn dan dwangwachtwoord.</string>
+    <string name="app_unlock_password_field_is_required">Het veld App Unlock Password is vereist.</string>
+    <string name="you_are_on_your_last_attempt_if_incorrect_your_data_will_be_security_wiped">U bent bij uw laatste poging. Als dit onjuist is, worden uw gegevens beveiligd gewist.</string>
+    <string name="password_isn_t_correct_try_again">Wachtwoord is niet correct Probeer het nog eens.</string>
+    <string name="please_enter_valid_email_id">Voer een geldig e-mailadres in.</string>
+    <string name="screen_name_is_required">Schermnaam is verplicht.</string>
+    <string name="length_must_be_between_6_to_15_characters">De lengte moet tussen de 6 en 15 tekens lang zijn!</string>
+    <string name="password_and_confirm_password_does_not_match">Wachtwoord en wachtwoord bevestigen komen niet overeen.</string>
+    <string name="current_password_field_is_required">Huidig ​​wachtwoordveld is vereist</string>
+    <string name="duress_password_field_is_required">Duress-wachtwoordveld is verplicht</string>
+    <string name="new_password_field_is_required">Nieuw wachtwoordveld is verplicht.</string>
+    <string name="ecc_id_field_is_required">Het veld ECC ID is vereist.</string>
+    <string name="screen_name_field_is_required">Schermnaamveld is verplicht.</string>
+    <string name="alias_field_is_required">Alias ​​veld is verplicht.</string>
+    <string name="add_contacts_first">Voeg eerst contacten toe</string>
+    <string name="you_have_one_new_friend_request">U hebt één nieuw vriendschapsverzoek.</string>
+    <string name="friend_request_accepted_by_s">Vriend verzoek geaccepteerd door %s.</string>
+    <string name="password_must_be_of_6_digit_and_must_contain_at_least_one_digit_one_character">Wachtwoord moet uit zes cijfers bestaan ​​en moet ten minste één cijfer, één teken bevatten</string>
+    <string name="new_messages_s">Nieuwe berichten (%d)</string>
+    <string name="please_enter_valid_ecc_id">Voer een geldig ecc-ID in</string>
+    <string name="cannot_add_own_ecc_id_in_contacts">Kan geen ECC-ID toevoegen aan contacten.</string>
+    <string name="no_internet_connection">Geen internet verbinding.</string>
+    <string name="contact_is_added_already">Contact is al toegevoegd.</string>
+    <string name="please_try_again">Probeer het opnieuw.</string>
+    <string name="group_name_should_be_less_then_25_characters">Groepsnaam moet minder dan 25 tekens bevatten.</string>
+    <string name="alias_name_should_be_less_then_20_characters">De aliasnaam moet minder dan 20 tekens lang zijn.</string>
+    <string name="screen_name_should_be_less_then_20_characters">Schermnaam moet minder dan 20 tekens lang zijn</string>
+    <string name="name_should_be_less_then_50_characters">Naam moet minder dan 50 tekens bevatten</string>
+    <string name="password_isn_t_correct_please_try_again_incorrect_attempt_1_d_2_d">Wachtwoord is niet correct Probeer het opnieuw. Onjuiste poging (%1$d/%2$d).</string>
+    <string name="your_message_will_delete_in_s">Je berichten worden over %s verwijderd</string>
+    <string name="s_not_in_your_friend_list_to_send_message_you_have_to_add_this_contact_to_in_you_contact_list">%s niet in je vriendenlijst, om bericht te sturen moet je deze contactpersoon toevoegen aan in je contactenlijst.</string>
+    <string name="successfully_copied">Succesvol gekopieerd</string>
+    <string name="if_you_reject_permission_you_can_not_use_this_service_n_nplease_turn_on_permissions_at_setting_permission">Als u toestemming weigert, kunt u deze service niet gebruiken. Schakel de rechten in via [Setting]> [Permission]></string>
+    <string name="audio_cannot_be_decrypted_try_again">Audio kan niet worden gedecodeerd. Probeer het nog eens!</string>
+    <string name="no_media_selected">Geen media geselecteerd.</string>
+    <string name="user_s_public_key_not_found">Publieke sleutel gebruiker niet gevonden!</string>
+    <string name="something_went_wrong">Er is iets fout gegaan!</string>
+    <string name="contact_details">Contact details</string>
+    <string name="contact_already_exists">Contact bestaat al!</string>
+    <string name="contact_added_successfully">Contact succesvol toegevoegd</string>
+    <string name="forward_to">Doorsturen naar&#8230;</string>
+    <string name="file_not_sent">Bestand niet verzonden!</string>
+    <string name="you_are_no_longer_member_of_the_group">Je bent geen lid meer van de groep!</string>
+    <string name="messages_not_selected">Berichten niet geselecteerd!</string>
+    <string name="group_name_field_is_required">Groepsnaam veld is verplicht</string>
+    <string name="group_name_should_be_maximum_20_characters">Groepsnaam moet maximaal 20 tekens lang zijn.</string>
+    <string name="please_select_at_least_1_contact_to_create_group">Selecteer alstublieft minimaal 1 contactpersoon om een ​​groep te maken</string>
+    <string name="remove_member">Verwijder lid</string>
+    <string name="are_you_sure_to_remove_1_s_from_group_2_s">Weet je zeker dat je %1$s uit groeps-%2$s wilt verwijderen?</string>
+    <string name="group_name_changed_successfully">Groepsnaam met succes gewijzigd</string>
+    <string name="please_try_again_later">Probeer het later opnieuw!</string>
+    <string name="no_internet_connection_please_try_again_later">Geen internet verbinding. Probeer het later opnieuw!</string>
+    <string name="press_back_again_to_close_real_apps_chat">Druk nog een keer op om SS-chat te sluiten.</string>
+    <string name="cache_cleared_successfully">Cache is gewist.</string>
+    <string name="no_pictures_selected">Geen afbeeldingen geselecteerd.</string>
+    <string name="title_should_be_unique">Titel moet uniek zijn</string>
+    <string name="title_or_body_cannot_be_left_empty">Titel of lichaam mag niet leeg worden gelaten.</string>
+    <string name="file_already_exist_please_change_name">Bestand bestaat al, wijzig de naam.</string>
+    <string name="do_you_want_to_discard_personal_notes">Wilt u persoonlijke notities verwijderen?</string>
+    <string name="saved_successfully">Met succes opgeslagen</string>
+    <string name="select_contacts">Selecteer Contacten</string>
+    <string name="select_saved_message">Selecteer opgeslagen bericht</string>
+    <string name="select_picture">Selecteer afbeelding</string>
+    <string name="select_personal_notes">Selecteer Persoonlijke notities</string>
+    <string name="picture_cannot_be_decrypted_try_again">Afbeelding kan niet worden gedecodeerd. Probeer het nog eens!</string>
+    <string name="ecc_id_s">ECC ID : %s</string>
+    <string name="delete_selected_d_chat">Wis geselecteerde %d Chat</string>
+    <string name="delete_all_chats">Verwijder alle chats</string>
+    <string name="delete_d_contact">Verwijder %d Contact</string>
+    <string name="delete_all_contact">Verwijder alle contact</string>
+    <string name="d_attempts">%d pogingen</string>
+    <string name="small">Klein</string>
+    <string name="large">Groot</string>
+    <string name="account_updated_successfully">Account is succesvol bijgewerkt</string>
+    <string name="select_tone">Selecteer Toon</string>
+    <string name="please_accept_the_permissions">Accepteer alstublieft de rechten!</string>
+    <string name="change_language">Wijzig taal</string>
+    <string name="change_language_colon">Wijzig taal:</string>
+    <string name="items">&#032;items</string>
+    <string name="pending">" In afwachting"</string>
+    <string name="share_to">Delen naar...</string>
+    <string name="your_message_will_delete_in">Je bericht wordt verwijderd</string>
+    <string name="file_already_saved">File is already saved</string>
+    <string name="pass_length_msg">Password should be minimum 6 characters  or maximum 20 character.</string>
+    <string name="duress_pass_length_msg">Duress password should be minimum 6 characters or maximum 20 character.</string>
+    <string name="nick_name_should_be_unique">Nick name of contact should be unique.</string>
+    <string name="contact_name_should_be_unique">Alias name should be unique</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="fragment_group_chat">Group Chat</string>
+    <string name="more">More</string>
+    <string name="save_chat">Save Chat</string>
+
+</resources>

@@ -1,0 +1,282 @@
+<resources>
+    <string name="app_name">SS Chat</string>
+
+    <string name="navigation_drawer_open">Gezinme çekmecesini aç</string>
+    <string name="navigation_drawer_close">Gezinme çekmecesini kapat</string>
+
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="fragment_chat">Chat</string>
+    <string name="fragment_contact">kontaklar</string>
+    <string name="fragment_vault">Kasa</string>
+    <string name="fragment_setting">@string/action_settings</string>
+    <string name="title_activity_chat_window">ChatWindowActivity</string>
+    <string name="title_activity_group_chat_window">GroupChatWindowActivity</string>
+    <string name="dialog_alert_title">Dikkat</string>
+
+    <string name="permission_rationale_message">Yetkilendirmeye başvurmak için bizi reddettin, lütfen yetkilendirmeyi kabul edin, aksi halde işlev normal olarak kullanılamaz!</string>
+    <string name="permission_denied_forever_message">Reddettiğiniz izinlerin bir kısmına ihtiyacımız var veya sistem başarısız oldu, lütfen sayfa yetkisi manuel olarak ayarlandıysa, aksi takdirde işlev normal olarak kullanılamaz!</string>
+    <string name="camera_and_location_rationale">Bu izin resimleri paylaşmak için gereklidir.</string>
+    <string name="title_message_notification">Yeni Bildirim (s)</string>
+
+    <!-- Burn Time Array List -->
+    <array name="burn_time">
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""12</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""45</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""40</item>
+        <item>""50</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""12</item>
+        <item>""18</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+
+    </array>
+
+    <string name="title_activity_photo_view">resimler</string>
+    <string name="dummy_button">Kukla Düğmesi</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_contact_details">ContactDetailsActivity</string>
+
+    <string name="uploading">[[UPLOAD_RATE]] - [[PROGRESS]] arası [[TOTAL_FILES]] adetle yüklendi - [[UPLOADED_FILES]] </string>
+    <string name="upload_success">Yükleme başarıyla tamamlandı [[ELAPSED_TIME]]</string>
+    <string name="upload_error">Yüklenirken hata oluştu</string>
+    <string name="upload_cancelled">Yükleme iptal edildi</string>
+    <string name="cancel_upload">İptal etmek</string>
+
+    <string name="you_cant_send_messages_group">Artık gruba üye olmadığınız için bu gruba mesaj gönderemezsiniz.</string>
+    <string name="yes">Evet</string>
+    <string name="no">Yok hayır</string>
+    <string name="send">gönder</string>
+    <string name="name">isim</string>
+    <string name="ecc_id">ECC Kimliği</string>
+    <string name="group_name">Grup ismi</string>
+    <string name="delete">Mesajı sil</string>
+    <string name="voice_call">Sesli arama</string>
+    <string name="change_name">İsmini değiştir</string>
+    <string name="send_message">Mesaj gönder</string>
+    <string name="_00_00">00:00</string>
+    <string name="slide_to_cancel">İptal etmek için kaydır</string>
+    <string name="group_name_colon">Grup ismi :</string>
+    <string name="create_group">Grup oluştur</string>
+    <string name="title">Başlık:</string>
+    <string name="body">Vücut:</string>
+    <string name="title_simple">Başlık</string>
+    <string name="body_simple">Vücut</string>
+    <string name="leave_group">Gruptan ayrıl</string>
+    <string name="cancel">@string/cancel_upload</string>
+    <string name="add_contact">Kişi ekle</string>
+    <string name="ecc_id_colon">ECC Kimliği:</string>
+    <string name="alias_colon">Diğer Ad:</string>
+    <string name="save">Kaydet</string>
+    <string name="pictures">Resimler</string>
+    <string name="camera">kamera</string>
+    <string name="contacts">İletişim</string>
+    <string name="notes">notlar</string>
+    <string name="change_group_name">Grup Adını Değiştir</string>
+    <string name="update">Güncelle</string>
+    <string name="screen_name_colon">Ekran Adı :</string>
+    <string name="name_colon">Adı:</string>
+    <string name="destruct_time">İmha süresi</string>
+    <string name="you_are_on_the_last_attemp_if_incorrect_your_data_will_be_security_wiped">Son denemede sen varsın. Yanlış ise verileriniz silinecek</string>
+    <string name="ok">Tamam</string>
+
+    <string name="message">Mesaj</string>
+    <string name="discard">Iptal et</string>
+    <string name="delete_all">Hepsini sil</string>
+    <string name="loading">Yükleniyor&#8230;</string>
+    <string name="please_wait">Lütfen bekle&#8230;</string>
+    <string name="license_key">Lisans anahtarı</string>
+    <string name="activate">etkinleştirmek</string>
+    <string name="chat">CHAT</string>
+    <string name="password">Parola</string>
+    <string name="set_screen_name_and_password">Ekran İsmini ve Parolayı Ayarla</string>
+    <string name="screen_name">Ekran Adı</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="profile_settings">Profil ayarları</string>
+    <string name="max_password_attempts">Maksimum şifre denemesi:</string>
+    <string name="select_ringtone">Zil Sesi\'ni seçin:</string>
+    <string name="default_word">Varsayılan</string>
+    <string name="font_size_colon">Yazı Boyutu:</string>
+    <string name="medium">Orta</string>
+    <string name="account_settings">Hesap ayarları</string>
+    <string name="lock_time_colon">Kilitleme zamanı:</string>
+    <string name="immediately">Hemen</string>
+    <string name="account_password_colon">Hesap şifresi:</string>
+    <string name="star_series">********</string>
+    <string name="current_password">Şimdiki Şifre</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="enter_key_to_send_message_colon">Mesaj Göndermek İçin Anahtar Girin:</string>
+    <string name="duress_password_colon">Duress Şifresi:</string>
+    <string name="duress_password">zor durum şifresi</string>
+    <string name="ecc_public_key_colon">Ecc Genel Anahtar:</string>
+    <string name="ecc_public_keys">ECC Genel Anahtarları</string>
+    <string name="chats">Sohbetler</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="audio">Ses</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="_10_22_pm">10:22 PM</string>
+    <string name="contact_single">Temas</string>
+    <string name="image">görüntü</string>
+    <string name="personal_note">Kişisel not</string>
+    <string name="video">Video</string>
+    <string name="admin">ADMIN</string>
+    <string name="rename">Adını değiştirmek</string>
+    <string name="vault">tonoz</string>
+    <string name="settings">@string/action_settings</string>
+    <string name="clear_cache">Önbelleği Temizle</string>
+    <string name="lock">Kilit</string>
+    <string name="search">Arama</string>
+    <string name="new_message">Yeni Mesaj</string>
+    <string name="destruct_timer">Yok sayacı</string>
+    <string name="mute_notification">Sessiz Bildirimi</string>
+    <string name="group_information">Grup Bilgisi</string>
+    <string name="share_from_vault">Kasadan paylaş</string>
+    <string name="personal_notes">Kişisel notlar</string>
+    <string name="chat_messages">sohbetler</string>
+    <string name="save_to_vault">Apps Kasası\'na kaydet</string>
+    <string name="forward">İlet</string>
+    <string name="copy">Kopyala</string>
+    <string name="add_member">Üye ekle</string>
+    <string name="edit_group_name">Grup Adını Düzenle</string>
+    <string name="remove_from_group">Gruptan Çıkar</string>
+    <string name="edit">Düzenle</string>
+    <string name="share">paylaş</string>
+    <string name="password_field_is_required">Şifre alanı gerekli.</string>
+    <string name="confirm_password_field_is_required">Şifre alanı gerekli olduğunu doğrulayın.</string>
+    <string name="password_must_contain_at_least_one_digit_one_lowercase_one_uppercase_one_special_character">Şifre en az bir rakam, bir küçük harf, bir büyük harf, bir özel Karakter içermelidir</string>
+    <string name="required">gereklidir</string>
+    <string name="incorrect_current_password_please_try_again">Yanlış Geçerli şifre. Lütfen tekrar deneyin.</string>
+    <string name="new_password_should_be_different_from_old_password">Yeni Şifre Eski Şifre\'den farklı olmalıdır.</string>
+    <string name="duress_password_should_be_different_from_application_password">Duress şifresi Uygulama şifresinden farklı olmalıdır</string>
+    <string name="application_password_should_be_different_from_duress_password">Uygulama Şifresi, Duress Şifresinden farklı olmalıdır.</string>
+    <string name="app_unlock_password_field_is_required">App Unlock Password alanı gereklidir.</string>
+    <string name="you_are_on_your_last_attempt_if_incorrect_your_data_will_be_security_wiped">Son teşebbüsündesin. Yanlışsa, verileriniz güvenlik silinir.</string>
+    <string name="password_isn_t_correct_try_again">Şifre doğru değil. Tekrar deneyin.</string>
+    <string name="please_enter_valid_email_id">Lütfen geçerli bir e-posta adresi girin.</string>
+    <string name="screen_name_is_required">Ekran Adı gerekli.</string>
+    <string name="length_must_be_between_6_to_15_characters">Uzunluk 6 ila 15 karakter arasında olmalıdır!</string>
+    <string name="password_and_confirm_password_does_not_match">Şifre ve Şifreyi Doğrula eşleşmiyor.</string>
+    <string name="current_password_field_is_required">Mevcut Şifre Alanı gerekli</string>
+    <string name="duress_password_field_is_required">Duress Password Alanı gerekli</string>
+    <string name="new_password_field_is_required">Yeni Şifre alanı gereklidir.</string>
+    <string name="ecc_id_field_is_required">ECC ID alanı gerekli.</string>
+    <string name="screen_name_field_is_required">Ekran Adı alanı gerekli.</string>
+    <string name="alias_field_is_required">Diğer alan gereklidir.</string>
+    <string name="add_contacts_first">İlk önce kişi ekle</string>
+    <string name="you_have_one_new_friend_request">Yeni bir arkadaşlık isteğin var.</string>
+    <string name="friend_request_accepted_by_s">Arkadaşlık isteği %s tarafından kabul edildi.</string>
+    <string name="password_must_be_of_6_digit_and_must_contain_at_least_one_digit_one_character">Şifre 6 haneli olmalı ve en az bir rakam, bir Karakter içermelidir</string>
+    <string name="new_messages_s">Yeni mesajlar (%d)</string>
+    <string name="please_enter_valid_ecc_id">Lütfen geçerli ecc kimliğini girin</string>
+    <string name="cannot_add_own_ecc_id_in_contacts">Kişilere kendi ECC kimliğini ekleyemez.</string>
+    <string name="no_internet_connection">İnternet bağlantısı yok.</string>
+    <string name="contact_is_added_already">İletişim zaten eklendi.</string>
+    <string name="please_try_again">Lütfen tekrar deneyin.</string>
+    <string name="group_name_should_be_less_then_25_characters">Grup adı 25 karakterden az olmalıdır.</string>
+    <string name="alias_name_should_be_less_then_20_characters">Diğer ad 20\'den az karakter olmalıdır.</string>
+    <string name="screen_name_should_be_less_then_20_characters">Ekran adı 20 karakterden az olmalı</string>
+    <string name="name_should_be_less_then_50_characters">İsim 50 karakterden az olmalı</string>
+    <string name="password_isn_t_correct_please_try_again_incorrect_attempt_1_d_2_d">Şifre doğru değil. Lütfen tekrar deneyin. Yanlış girişim (%1$d/%2$d).</string>
+    <string name="your_message_will_delete_in_s">Mesajınız %s içinde silinecek</string>
+    <string name="s_not_in_your_friend_list_to_send_message_you_have_to_add_this_contact_to_in_you_contact_list">%s arkadaş listenizde değil, mesaj göndermek için bu kişiyi irtibat listenize eklemelisiniz.</string>
+    <string name="successfully_copied">Başarıyla Kopyalandı</string>
+    <string name="if_you_reject_permission_you_can_not_use_this_service_n_nplease_turn_on_permissions_at_setting_permission">İzin reddederseniz, bu hizmeti kullanamazsınız. Lütfen izinleri [Ayarlar]> [İzin]></string>
+    <string name="audio_cannot_be_decrypted_try_again">Ses şifresi çözülemez. Tekrar deneyin!</string>
+    <string name="no_media_selected">Medya seçilmedi.</string>
+    <string name="user_s_public_key_not_found">Kullanıcının Genel Anahtarı Bulunamadı!</string>
+    <string name="something_went_wrong">Bir şeyler yanlış gitti!</string>
+    <string name="contact_details">İletişim bilgisi</string>
+    <string name="contact_already_exists">İletişim Zaten Var!</string>
+    <string name="contact_added_successfully">İletişim Başarıyla Eklendi</string>
+    <string name="forward_to">Forward&#8230;</string>
+    <string name="file_not_sent">Dosya Gönderilmedi!</string>
+    <string name="you_are_no_longer_member_of_the_group">Artık grubun üyesi değilsiniz!</string>
+    <string name="messages_not_selected">Mesajlar seçilmemiş!</string>
+    <string name="group_name_field_is_required">Grup adı alanı gerekli</string>
+    <string name="group_name_should_be_maximum_20_characters">Grup adı en fazla 20 karakter olmalıdır.</string>
+    <string name="please_select_at_least_1_contact_to_create_group">Lütfen grup oluşturmak için en az 1 kişi seçin</string>
+    <string name="remove_member">Üye kaldır</string>
+    <string name="are_you_sure_to_remove_1_s_from_group_2_s">%1$s\'u grup %2$s\'dan kaldırdığınızdan emin misiniz?</string>
+    <string name="group_name_changed_successfully">Grup Adı Başarıyla Değiştirildi</string>
+    <string name="please_try_again_later">Lütfen daha sonra tekrar deneyiniz !</string>
+    <string name="no_internet_connection_please_try_again_later">İnternet bağlantısı yok. Lütfen daha sonra tekrar deneyiniz!</string>
+    <string name="press_back_again_to_close_real_apps_chat">Shadow Secure Sohbeti\'ni kapatmak için tekrar basın.</string>
+    <string name="cache_cleared_successfully">Önbellek başarıyla temizlendi.</string>
+    <string name="no_pictures_selected">Seçilen Resim Yok.</string>
+    <string name="title_should_be_unique">Başlık benzersiz olmalı</string>
+    <string name="title_or_body_cannot_be_left_empty">Başlık veya Gövde boş bırakılamaz.</string>
+    <string name="file_already_exist_please_change_name">Dosya zaten mevcut, Lütfen adınızı değiştirin.</string>
+    <string name="do_you_want_to_discard_personal_notes">Kişisel \'ı silmek mi istiyorsunuz?</string>
+    <string name="saved_successfully">Başarıyla kaydedildi</string>
+    <string name="select_contacts">Kişileri Seç</string>
+    <string name="select_saved_message">Kayıtlı Mesaj Seç</string>
+    <string name="select_picture">Resim Seç</string>
+    <string name="select_personal_notes">Kişisel Notlar\'ı seçin</string>
+    <string name="picture_cannot_be_decrypted_try_again">Resim şifresi çözülemiyor. Tekrar deneyin!</string>
+    <string name="ecc_id_s">ECC Kimliği: %s</string>
+    <string name="delete_selected_d_chat">Seçilenleri sil %d Sohbet et</string>
+    <string name="delete_all_chats">Tüm Sohbetleri sil</string>
+    <string name="delete_d_contact">%d Kişi Sil</string>
+    <string name="delete_all_contact">Tümünü sil</string>
+    <string name="d_attempts">%d deneme</string>
+    <string name="small">Küçük</string>
+    <string name="large">Büyük</string>
+    <string name="account_updated_successfully">Hesap başarıyla güncellendi</string>
+    <string name="select_tone">Ton seç</string>
+    <string name="please_accept_the_permissions">Lütfen izinleri kabul edin!</string>
+    <string name="change_language">Dili değiştir</string>
+    <string name="change_language_colon">Dili değiştir:</string>
+    <string name="items">&#032;ürün</string>
+    <string name="pending">kadar</string>
+    <string name="share_to">Paylaş...</string>
+    <string name="your_message_will_delete_in">Mesajınız silinecek</string>
+    <string name="file_already_saved">File is already saved</string>
+    <string name="pass_length_msg">Password should be minimum 6 characters  or maximum 20 character.</string>
+    <string name="duress_pass_length_msg">Duress password should be minimum 6 characters or maximum 20 character.</string>
+    <string name="nick_name_should_be_unique">Nick name of contact should be unique.</string>
+    <string name="contact_name_should_be_unique">Alias name should be unique</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="fragment_group_chat">Group Chat</string>
+    <string name="more">More</string>
+    <string name="save_chat">Save Chat</string>
+</resources>

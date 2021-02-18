@@ -1,0 +1,359 @@
+<resources>
+    <string name="app_name">SS Chat </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="fragment_chat">Chat</string>
+    <string name="fragment_contact">Contacts</string>
+    <string name="fragment_vault">Vault</string>
+    <string name="fragment_setting">@string/action_settings</string>
+    <string name="title_activity_chat_window">ChatWindowActivity</string>
+    <string name="title_activity_group_chat_window">GroupChatWindowActivity</string>
+    <string name="dialog_alert_title">Attention</string>
+
+    <string name="encrypted_text">Encrypted Text</string>
+    <string name="encrypted_photo">Encrypted Photo</string>
+    <string name="encrypted_note">Encrypted Note</string>
+    <string name="encrypted_contact">Encrypted Contact</string>
+    <string name="encrypted_video">Encrypted Video</string>
+    <string name="encrypted_audio">Encrypted Audio</string>
+
+    <string name="permission_rationale_message">You have rejected us to apply for authorization, please agree to authorization, otherwise the function can\'t be used normally!</string>
+    <string name="permission_denied_forever_message">We need some of the permissions you rejected or the system failed to apply failed, please manually set to the page authorize, otherwise the function can\'t be used normally!</string>
+    <string name="camera_and_location_rationale">These permission is required to share images.</string>
+    <string name="title_message_notification">New Notification(s)</string>
+
+    <!-- Burn Time Array List -->
+    <array name="burn_time">
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""12</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""45</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""40</item>
+        <item>""50</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""12</item>
+        <item>""18</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+
+    </array>
+
+    <string name="title_activity_photo_view">Picture</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_contact_details">ContactDetailsActivity</string>
+
+    <string name="uploading">Uploaded [[UPLOADED_FILES]] of [[TOTAL_FILES]] at [[UPLOAD_RATE]] - [[PROGRESS]]</string>
+    <string name="upload_success">Upload completed successfully in [[ELAPSED_TIME]]</string>
+    <string name="upload_error">Error while uploading</string>
+    <string name="upload_cancelled">Upload has been cancelled</string>
+    <string name="cancel_upload">Cancel</string>
+
+    <string name="you_cant_send_messages_group">You can’t send messages to this group because you’re no longer a member of the group.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="send">Send</string>
+    <string name="name">Name</string>
+    <string name="ecc_id">ECC ID</string>
+    <string name="group_name">Group Name</string>
+    <string name="delete">Delete</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="change_name">Change Name</string>
+    <string name="change_contact_name">Change Contact Name</string>
+    <string name="send_message">Send Message</string>
+    <string name="_00_00">00:00</string>
+    <string name="slide_to_cancel">Slide to cancel</string>
+    <string name="group_name_colon">Group Name :</string>
+    <string name="create_group">Create Group</string>
+    <string name="title">Title:</string>
+    <string name="body">Body:</string>
+    <string name="title_simple">Title</string>
+    <string name="body_simple">Body</string>
+    <string name="leave_group">Leave Group</string>
+    <string name="cancel">@string/cancel_upload</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="ecc_id_colon">ECC ID :</string>
+    <string name="alias_colon">Alias :</string>
+    <string name="save">Save</string>
+    <string name="pictures">Pictures</string>
+    <string name="camera">Camera</string>
+    <string name="contacts">Contacts</string>
+    <string name="notes">Notes</string>
+    <string name="change_group_name">Change Group Name</string>
+    <string name="update">Update</string>
+    <string name="screen_name_colon">Screen Name :</string>
+    <string name="contact_name_colon">Contact Name :</string>
+    <string name="name_colon">Name :</string>
+    <string name="destruct_time">Destruct time</string>
+    <string name="you_are_on_the_last_attemp_if_incorrect_your_data_will_be_security_wiped">
+        You are on the last attempt. If incorrect, your data will be wiped.In order to proceed you must type in the following text:
+    </string>
+    <string name="ShadowSecureTypeIn">Shadow_Secure</string>
+    <string name="ShadowSecureWipeData">Shadow_Wipe</string>
+    <string name="wipe_comment">
+        Performing this action will completely wipe the application data of your secure chat app. If you want to proceed, please type the following text.
+    </string>
+    <string name="wipe_edit_hint">This Operation Can Not Be Undone</string>
+    <string name="wipe_contacts">Clear contact list</string>
+    <string name="wipe_completed">Data Wipe Complete</string>
+    <string name="wipe_not_completed">Data Wipe Failed</string>
+
+    <string name="ok">OK</string>
+    <string name="app_settings">APP SETTINGS</string>
+    <string name="signin">SIGN IN</string>
+    <string name="next">NEXT</string>
+
+    <string name="message">Message</string>
+    <string name="discard">Discard</string>
+    <string name="delete_all">Delete All</string>
+    <string name="loading">Generating Secure Environment</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="license_key">LICENSE KEY</string>
+    <string name="activate">ACTIVATE</string>
+    <string name="chat">CHAT</string>
+    <string name="password">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PASSWORD</string>
+    <string name="set_screen_name_and_password">Set Screen Name and Password</string>
+    <string name="screen_name">SCREEN NAME</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="max_password_attempts">Max password attempts:</string>
+    <string name="select_ringtone">Select Ringtone:</string>
+    <string name="select_notify_sound">Select Notifications Sound:</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="notify">Notifications</string>
+    <string name="default_word">English</string>
+    <string name="font_size_colon">Font Size:</string>
+    <string name="medium">Medium</string>
+    <string name="account_settings">APP SETTINGS</string>
+    <string name="lock_time_colon">Lock Time:</string>
+    <string name="immediately">Immediately</string>
+    <string name="account_password_colon">Account Password:</string>
+    <string name="phone_password">Change Phone Password:</string>
+    <string name="star_series">********</string>
+    <string name="app_version">Application Version</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_key_to_send_message_colon">Enter Key To Send Message:</string>
+    <string name="duress_password_colon">Duress Password:</string>
+    <string name="duress_password">Duress Password</string>
+    <string name="ecc_public_key_colon">Ecc Public Key:</string>
+    <string name="ecc_public_keys">ECC Public Keys</string>
+    <string name="chats">Chats</string>
+    <string name="username">UserName</string>
+    <string name="audio">Audio</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="_10_22_pm">10:22 PM</string>
+    <string name="contact_single">Contact</string>
+    <string name="image">Image</string>
+    <string name="personal_note">Personal Note</string>
+    <string name="video">Video</string>
+    <string name="admin">ADMIN</string>
+    <string name="rename">Rename</string>
+    <string name="vault">Vault</string>
+    <string name="settings">@string/action_settings</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="secure_data_wipe">Secure Data Wipe</string>
+    <string name="data_wipe">Data Wipe</string>
+    <string name="lock">Lock</string>
+    <string name="search">Search</string>
+    <string name="new_message">New Message</string>
+    <string name="destruct_timer">Destruct timer</string>
+    <string name="mute_notification">Mute Notification</string>
+    <string name="group_information">Group Information</string>
+    <string name="share_from_vault">Share From Vault</string>
+    <string name="personal_notes">Personal Notes</string>
+    <string name="chat_messages">Chat Messages</string>
+    <string name="save_to_vault">Save to Vault</string>
+    <string name="forward">Forward</string>
+    <string name="copy">Copy</string>
+    <string name="add_member">Add Member</string>
+    <string name="edit_group_name">Edit Group Name</string>
+    <string name="remove_from_group">Remove From Group</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="password_field_is_required">Password field is required.</string>
+    <string name="confirm_password_field_is_required">Confirm Password field is required.</string>
+    <string name="password_must_contain_at_least_one_digit_one_lowercase_one_uppercase_one_special_character">Password must contain at least one digit,one lowercase,one uppercase,one special Character</string>
+    <string name="required">Required</string>
+    <string name="incorrect_current_password_please_try_again">Incorrect Current password. Please try again.</string>
+    <string name="new_password_should_be_different_from_old_password">New Password should be different from Old Password.</string>
+    <string name="duress_password_should_be_different_from_application_password">Duress password should be different from Application password</string>
+    <string name="application_password_should_be_different_from_duress_password">Application password should be different from Duress password</string>
+    <string name="app_unlock_password_field_is_required">App Unlock Password field is required.</string>
+    <string name="you_are_on_your_last_attempt_if_incorrect_your_data_will_be_security_wiped">You are on your last attempt. If incorrect, your data will be security wiped with no possibility to recover.In order to proceed you have to type in the following text:</string>
+    <string name="password_isn_t_correct_try_again">Password isn\'t correct. Try again.</string>
+    <string name="please_enter_valid_email_id">Please enter valid email ID.</string>
+    <string name="screen_name_is_required">Screen Name is required.</string>
+    <string name="length_must_be_between_6_to_15_characters">Length must be between 6 to 15 characters!</string>
+    <string name="password_and_confirm_password_does_not_match">Password and Confirm Password does not match.</string>
+    <string name="current_password_field_is_required">Current Password Field is required</string>
+    <string name="duress_password_field_is_required">Duress Password Field is required</string>
+    <string name="new_password_field_is_required">New Password Field is required</string>
+    <string name="ecc_id_field_is_required">ECC ID field is required.</string>
+    <string name="screen_name_field_is_required">Screen Name field is required.</string>
+    <string name="alias_field_is_required">Alias field is required.</string>
+    <string name="add_contacts_first">Add contacts first</string>
+    <string name="you_have_one_new_friend_request">You have one new friend request.</string>
+    <string name="friend_request_accepted_by_s">Friend request accepted by %s.</string>
+    <string name="password_must_be_of_6_digit_and_must_contain_at_least_one_digit_one_character">Password must be of 6 digit and must contain at least one digit, one Character</string>
+    <string name="new_messages_s">New messages (%d)</string>
+    <string name="please_enter_valid_ecc_id">Please enter valid ecc id</string>
+    <string name="cannot_add_own_ecc_id_in_contacts">Cannot add own ECC ID in contacts.</string>
+    <string name="no_internet_connection">No Internet Connection.</string>
+    <string name="contact_is_added_already">Contact is added already.</string>
+    <string name="please_try_again">Please try again.</string>
+    <string name="group_name_should_be_less_then_25_characters">Group name should be less then 25 characters.</string>
+    <string name="alias_name_should_be_less_then_20_characters">Alias name should be less then 20 characters.</string>
+    <string name="screen_name_should_be_less_then_20_characters">Screen name should be less then 20 characters</string>
+    <string name="name_should_be_less_then_50_characters">Name should be less then 50 characters</string>
+    <string name="password_isn_t_correct_please_try_again_incorrect_attempt_1_d_2_d">Password isn\'t correct. Please try again. Incorrect attempt (%1$d/%2$d).</string>
+    <string name="your_message_will_delete_in_s"><i><font size="10">Your message will delete in %s</font></i></string>
+    <string name="s_not_in_your_friend_list_to_send_message_you_have_to_add_this_contact_to_in_you_contact_list">%s not in your friend list, to send message you have to add this contact to in you contact list.</string>
+    <string name="successfully_copied">Successfully Copied</string>
+    <string name="if_you_reject_permission_you_can_not_use_this_service_n_nplease_turn_on_permissions_at_setting_permission">If you reject permission,you can not use this service. Please turn on permissions at [Setting] > [Permission]></string>
+    <string name="audio_cannot_be_decrypted_try_again">Audio cannot be decrypted. Try again!</string>
+    <string name="no_media_selected">No media selected.</string>
+    <string name="user_s_public_key_not_found">User\'s Public Key Not Found !</string>
+    <string name="something_went_wrong">Something Went Wrong!</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="contact_already_exists">Contact Already Exists !</string>
+    <string name="contact_added_successfully">Contact Added Successfully</string>
+    <string name="forward_to">Forward To&#8230;</string>
+    <string name="file_not_sent">File not Sent !</string>
+    <string name="you_are_no_longer_member_of_the_group">You are no longer member of the group!</string>
+    <string name="messages_not_selected">Messages not selected!</string>
+    <string name="group_name_field_is_required">Group name field is required</string>
+    <string name="group_name_should_be_maximum_20_characters">Group name should be maximum 20 characters.</string>
+    <string name="please_select_at_least_1_contact_to_create_group">Please Select at least 1 contact to create group</string>
+    <string name="remove_member">Remove member</string>
+    <string name="are_you_sure_to_remove_1_s_from_group_2_s">Are you sure to remove %1$s from group %2$s?</string>
+    <string name="group_name_changed_successfully">Group Name Changed Successfully</string>
+    <string name="please_try_again_later">Please try again later !</string>
+    <string name="no_internet_connection_please_try_again_later">No Internet Connection. Please try again later!</string>
+    <string name="press_back_again_to_close_real_apps_chat">Press back again to close Shadow Secure Chat.</string>
+    <string name="cache_cleared_successfully">Cache cleared successfully.</string>
+    <string name="no_pictures_selected">No Pictures Selected.</string>
+    <string name="title_should_be_unique">Title Should be unique</string>
+    <string name="title_or_body_cannot_be_left_empty">Title or Body cannot be left empty.</string>
+    <string name="file_already_exist_please_change_name">File already exist, Please change name.</string>
+    <string name="do_you_want_to_discard_personal_notes">Do you want to discard Personal Notes ?</string>
+    <string name="saved_successfully">Saved Successfully</string>
+    <string name="select_contacts">Select Contacts</string>
+    <string name="select_saved_message">Select Saved Message</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="select_personal_notes">Select Personal Notes</string>
+    <string name="picture_cannot_be_decrypted_try_again">Picture cannot be decrypted. Try again!</string>
+    <string name="ecc_id_s">ECC ID : %s</string>
+    <string name="delete_selected_d_chat">Delete selected %d Chat</string>
+    <string name="delete_all_chats">Delete all Chats</string>
+    <string name="delete_d_contact">Delete %d Contact</string>
+    <string name="delete_all_contact">Delete all Contact</string>
+    <string name="d_attempts">%d attempts</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
+    <string name="account_updated_successfully">Account updated successfully</string>
+    <string name="select_tone">Select Tone</string>
+    <string name="please_accept_the_permissions">Please accept the permissions !</string>
+    <string name="change_language">Change Language</string>
+    <string name="change_language_colon">Change Language:</string>
+    <string name="items">&#032;items</string>
+    <string name="pending">Pending</string>
+    <string name="share_to">Share To…</string>
+    <string name="your_message_will_delete_in"><i><font size="15">Your message will delete in </font></i></string>
+    <string name="file_already_saved">File is already saved</string>
+    <string name="pass_length_msg">Password should be minimum 6 characters or maximum 20 character.</string>
+    <string name="duress_pass_length_msg">Duress password should be minimum 6 characters or maximum 20 character.</string>
+    <string name="nick_name_should_be_unique">Nick name of contact should be unique.</string>
+    <string name="contact_name_should_be_unique">Alias name should be unique</string>
+    <string name="shadow_secure">Shadow Secure</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="fragment_group_chat">Group Chat</string>
+    <string name="more">More</string>
+    <string name="save_chat">Save Chat</string>
+    <string name="chat_hint"><i><font size="15">Type encrypted message...</font></i></string>
+    <string name="length_must_be_6_characters">Length must be 6 characters!</string>
+
+    <!--    Call Related Strings-->
+    <string name="permlab_useSip">ChatSecure</string>
+    <string name="permdesc_useSip">Place ChatSecure calls</string>
+    <string name="permlab_configureSip">Full access to ChatSecure Accounts/Calls</string>
+    <string name="permdesc_configureSip">Configure ChatSecure accounts and settings</string>
+    <!--, access to Goldtel NG Communicator Pro contents (call logs, contacts), extends and hook SIP flow</string> -->
+
+    <string name="press_back_again_to_close_protext_chat">Press back again to close Protext Chat.</string>
+    <string name="use_pstn">Use mobile</string>
+    <string name="not_configured_multiple_calls">The application is not configured to allow multiple calls</string>
+    <string name="invalid_sip_uri">Avanti Dialer uri is invalid for call</string>
+    <string name="connection_not_valid">Selected network route not allowed with current settings you have setup</string>
+    <string name="downloading">Downloading</string>
+    <string name="service_ticker_registered_text">CallApp Registered</string>
+    <string name="ongoing_call">Call in Progress</string>
+    <string name="missed_call">Missed call </string>
+    <string name="voice_mail">Voice mail</string>
+
+    <string name="call_credit_1">Call Credit: </string>
+    <string name="menu_user_setting_title">User Setting</string>
+    <string name="logout">Logout</string>
+    <string name="enter_number">Enter name or number</string>
+
+    <string name="another_application_use_sip_port">Another application is currently using Avanti Dialer port! Can\'t start !!!</string>
+    <string name="cant_write_file">Error writing file</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="away">Away</string>
+    <string name="busy">Busy</string>
+    <string name="gsm">Mobile</string>
+
+    <!--MyAccount Option-->
+
+    <!--My Account option screen-->
+
+    <!--My Account option screen-->
+    <string name="pickup_sip_uri">Contacts</string>
+    <string name="choose_wizard">Choose wizard</string>
+    <string name="prefs_media">Media</string>
+    <string name="balance">Balance :</string>
+    <string name="protext_chat" >Shadow \nCalls</string>
+    <string name="type_encrypted_message"><i>Type encrypted message...</i></string>
+</resources>

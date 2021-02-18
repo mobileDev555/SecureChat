@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <!-- <EditTextPreference 
+            	android:title="@string/pref_account_name" 
+            	android:singleLine="true"
+            	android:dialogMessage="@string/pref_account_name_summary"
+            	android:summary="@string/pref_account_name_summary" 
+            	android:key="display_name"/> -->
+       
+        <EditTextPreference 
+            	android:title="Username"
+            	android:singleLine="true"
+            	android:dialogMessage="Set your mobile no for this account"
+            	android:summary="Set your mobile no for this account"
+            	android:key="username"
+            	android:inputType="number"/>
+   
+        
+        <EditTextPreference 
+            	android:title="Password"
+            	android:singleLine="true"
+            	android:dialogMessage="Set password to access this account"
+            	android:summary="Set password to access this account"
+            	android:key="password"
+            	android:inputType="textPassword"/>
+        
+        <EditTextPreference 
+            	android:title="Server"
+            	android:singleLine="true"
+            	android:dialogMessage="Enter Server domain"
+            	android:summary="Enter Server domain"
+            	android:key="server"/>
+    
+    </PreferenceScreen>

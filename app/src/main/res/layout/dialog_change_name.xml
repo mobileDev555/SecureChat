@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lyr_account_password_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#232427"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="@font/quicksandbold"
+            android:text="@string/change_name"
+            android:textColor="@color/button_text_color"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/txt_ecc_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:enabled="false"
+            android:inputType="textNoSuggestions"
+            android:singleLine="true"
+            android:text="hsf"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/txt_alias"
+            style="@style/edit_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="@string/alias_colon"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColorHint="@color/white" />
+
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/save_button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/save" />
+
+        <TextView
+            android:id="@+id/txtcancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/quicksandbold"
+            android:text="@string/cancel"
+            android:textColor="@color/button_text_color"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

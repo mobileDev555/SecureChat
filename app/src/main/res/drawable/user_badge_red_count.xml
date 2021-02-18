@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval">
+    <solid android:color="@color/badge_icon_bg_red"/>
+    <corners android:radius="@dimen/new_message_badge_radius"/>
+    <size android:height="21dp" android:width="21dp" />
+</shape>

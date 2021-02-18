@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">SS Chat</string>
+
+    <string name="navigation_drawer_open">Открыть навигационный ящик</string>
+    <string name="navigation_drawer_close">Закрыть навигационный ящик</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="fragment_chat">Чат</string>
+    <string name="fragment_contact">Контакты</string>
+    <string name="fragment_vault">Хранилище</string>
+    <string name="fragment_setting">@string/action_settings</string>
+    <string name="title_activity_chat_window">ChatWindowActivity</string>
+    <string name="title_activity_group_chat_window">GroupChatWindowActivity</string>
+    <string name="dialog_alert_title">Внимание</string>
+
+    <string name="permission_rationale_message">Вы отклонили нас, чтобы подать заявку на авторизацию, пожалуйста, соглашайтесь на авторизацию, иначе функция не может быть использована в обычном режиме!</string>
+    <string name="permission_denied_forever_message">Нам нужны некоторые из разрешенных вами разрешений или неудачная попытка использования системы, пожалуйста, вручную установите авторизацию на странице, иначе функция не может быть использована в обычном режиме!</string>
+    <string name="camera_and_location_rationale">Эти разрешения необходимы для обмена изображениями.</string>
+    <string name="title_message_notification">Новое уведомление (s)</string>
+
+    <!-- Burn Time Array List -->
+    <array name="burn_time">
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""12</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""45</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""40</item>
+        <item>""50</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""12</item>
+        <item>""18</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+
+    </array>
+
+    <string name="title_activity_photo_view">Картинки</string>
+    <string name="dummy_button">Пустая кнопка</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_contact_details">ContactDetailsActivity</string>
+
+    <string name="uploading">Загружено [[UPLOADED_FILES]] из [[TOTAL_FILES]] на [[UPLOAD_RATE]] - [[PROGRESS]]</string>
+    <string name="upload_success">Загрузка успешно завершена в [[ELAPSED_TIME]]</string>
+    <string name="upload_error">Ошибка при загрузке</string>
+    <string name="upload_cancelled">Отмена была отменена</string>
+    <string name="cancel_upload">Отмена</string>
+
+    <string name="you_cant_send_messages_group">Вы не можете отправлять сообщения в эту группу, потому что вы больше не являетесь членом группы.</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+    <string name="send">Отправить</string>
+    <string name="name">Имя</string>
+    <string name="ecc_id">Идентификатор ECC</string>
+    <string name="group_name">Название группы</string>
+    <string name="delete">Удалить</string>
+    <string name="voice_call">Голосовой вызов</string>
+    <string name="change_name">Изменить Имя</string>
+    <string name="send_message">Отправить Сообщение</string>
+    <string name="_00_00">00:00</string>
+    <string name="slide_to_cancel">Слайд для отмены</string>
+    <string name="group_name_colon">Название группы :</string>
+    <string name="create_group">Создать группу</string>
+    <string name="title">Заглавие:</string>
+    <string name="body">Тело:</string>
+    <string name="title_simple">заглавие</string>
+    <string name="body_simple">тело</string>
+    <string name="leave_group">Покинуть группу</string>
+    <string name="cancel">@string/cancel_upload</string>
+    <string name="add_contact">Добавить контакт</string>
+    <string name="ecc_id_colon">Идентификатор ECC:</string>
+    <string name="alias_colon">Псевдоним:</string>
+    <string name="save">Сохранить</string>
+    <string name="pictures">Картинки</string>
+    <string name="camera">Камера</string>
+    <string name="contacts">контакты</string>
+    <string name="notes">Заметки</string>
+    <string name="change_group_name">Изменить название Группы</string>
+    <string name="update">Обновить</string>
+    <string name="screen_name_colon">Ник :</string>
+    <string name="name_colon">Имя :</string>
+    <string name="destruct_time">Время разрушения</string>
+    <string name="you_are_on_the_last_attemp_if_incorrect_your_data_will_be_security_wiped">Вы находитесь в последней попытке. Если это неверно, ваши данные будут протерты</string>
+    <string name="ok">Ок</string>
+
+    <string name="message">Сообщение</string>
+    <string name="discard">Отменить</string>
+    <string name="delete_all">Удалить все</string>
+    <string name="loading">Загрузка&#8230;</string>
+    <string name="please_wait">Пожалуйста, подождите&#8230;</string>
+    <string name="license_key">Лицензионный ключ</string>
+    <string name="activate">активировать</string>
+    <string name="chat">Чат</string>
+    <string name="password">пароль</string>
+    <string name="set_screen_name_and_password">Задать имя и пароль экрана</string>
+    <string name="screen_name">Ник</string>
+    <string name="confirm_password">Подтвердите Пароль</string>
+    <string name="profile_settings">Настройки Профиля</string>
+    <string name="max_password_attempts">Максимальные попытки пароля:</string>
+    <string name="select_ringtone">Выберите мелодию звонка:</string>
+    <string name="default_word">По умолчанию</string>
+    <string name="font_size_colon">Размер шрифта:</string>
+    <string name="medium">средний</string>
+    <string name="account_settings">Настройки Аккаунта</string>
+    <string name="lock_time_colon">Время блокировки:</string>
+    <string name="immediately">Немедленно</string>
+    <string name="account_password_colon">Пароль от аккаунта:</string>
+    <string name="star_series">********</string>
+    <string name="current_password">текущий пароль</string>
+    <string name="new_password">новый пароль</string>
+    <string name="enter_key_to_send_message_colon">Введите ключ для отправки сообщения:</string>
+    <string name="duress_password_colon">Пароль принуждения:</string>
+    <string name="duress_password">Принудительный пароль</string>
+    <string name="ecc_public_key_colon">Открытый ключ Ecc:</string>
+    <string name="ecc_public_keys">Открытые ключи ECC</string>
+    <string name="chats">Чаты</string>
+    <string name="username">имя пользователя</string>
+    <string name="audio">аудио</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="_10_22_pm">10:22 PM</string>
+    <string name="contact_single">контакт</string>
+    <string name="image">Образ</string>
+    <string name="personal_note">Персональная записка</string>
+    <string name="video">видео</string>
+    <string name="admin">Администратор</string>
+    <string name="rename">переименовывать</string>
+    <string name="vault">Свод</string>
+    <string name="settings">@string/action_settings</string>
+    <string name="clear_cache">Очистить кэш</string>
+    <string name="lock">Замок</string>
+    <string name="search">Поиск</string>
+    <string name="new_message">Новое Сообщение</string>
+    <string name="destruct_timer">Таймер разрушения</string>
+    <string name="mute_notification">Уведомление об отключении звука</string>
+    <string name="group_information">Информация о Группе</string>
+    <string name="share_from_vault">Поделиться из Хранилища</string>
+    <string name="personal_notes">Личные Заметки</string>
+    <string name="chat_messages">Сообщения Чата</string>
+    <string name="save_to_vault">Сохранить в хранилище</string>
+    <string name="forward">Переслать</string>
+    <string name="copy">Копировать</string>
+    <string name="add_member">Добавить участников</string>
+    <string name="edit_group_name">Изменить название группы</string>
+    <string name="remove_from_group">Удалить из группы</string>
+    <string name="edit">редактировать</string>
+    <string name="share">Поделиться</string>
+    <string name="password_field_is_required">Поле пароля обязательное.</string>
+    <string name="confirm_password_field_is_required">Подтвердите пароль.</string>
+    <string name="password_must_contain_at_least_one_digit_one_lowercase_one_uppercase_one_special_character">Пароль должен содержать как минимум одну цифру, один строчный, один заглавный, один специальный символ</string>
+    <string name="required">необходимые</string>
+    <string name="incorrect_current_password_please_try_again">Неверный текущий пароль. Пожалуйста, попробуйте еще раз.</string>
+    <string name="new_password_should_be_different_from_old_password">Новый пароль должен отличаться от старого пароля.</string>
+    <string name="duress_password_should_be_different_from_application_password">Пароль принуждения должен отличаться от пароля приложения</string>
+    <string name="application_password_should_be_different_from_duress_password">Пароль приложения должен отличаться от Duress Password.</string>
+    <string name="app_unlock_password_field_is_required">Требуется поле «Разблокировать приложение».</string>
+    <string name="you_are_on_your_last_attempt_if_incorrect_your_data_will_be_security_wiped">Вы находитесь в своей последней попытке. Если это неверно, ваши данные будут защищены.</string>
+    <string name="password_isn_t_correct_try_again">Неверный пароль. Попробуй еще раз.</string>
+    <string name="please_enter_valid_email_id">Введите действительный идентификатор электронной почты.</string>
+    <string name="screen_name_is_required">Имя экрана требуется.</string>
+    <string name="length_must_be_between_6_to_15_characters">Длина должна быть от 6 до 15 символов!</string>
+    <string name="password_and_confirm_password_does_not_match">Пароль и пароль подтверждения не совпадают.</string>
+    <string name="current_password_field_is_required">Поле текущего пароля требуется</string>
+    <string name="duress_password_field_is_required">Поле обязательного пароля обязательное</string>
+    <string name="new_password_field_is_required">Требуется новое поле пароля.</string>
+    <string name="ecc_id_field_is_required">Поле идентификатора ECC требуется.</string>
+    <string name="screen_name_field_is_required">Поле «Имя экрана» обязательно.</string>
+    <string name="alias_field_is_required">Поле псевдонима не требуется.</string>
+    <string name="add_contacts_first">Сначала добавить контакты</string>
+    <string name="you_have_one_new_friend_request">У вас есть один новый запрос друга.</string>
+    <string name="friend_request_accepted_by_s">Запрос друга, принятый %s.</string>
+    <string name="password_must_be_of_6_digit_and_must_contain_at_least_one_digit_one_character">Пароль должен иметь 6 цифр и должен содержать не менее одной цифры, один символ</string>
+    <string name="new_messages_s">Новые сообщения (%d)</string>
+    <string name="please_enter_valid_ecc_id">Введите действительный ecc id</string>
+    <string name="cannot_add_own_ecc_id_in_contacts">Невозможно добавить собственный идентификатор ECC в контакты.</string>
+    <string name="no_internet_connection">Нет соединения с интернетом.</string>
+    <string name="contact_is_added_already">Контакт уже добавлен.</string>
+    <string name="please_try_again">Пожалуйста, попробуйте еще раз.</string>
+    <string name="group_name_should_be_less_then_25_characters">Имя группы должно быть менее 25 символов.</string>
+    <string name="alias_name_should_be_less_then_20_characters">Имя псевдонима должно быть менее 20 символов.</string>
+    <string name="screen_name_should_be_less_then_20_characters">Имя экрана должно быть не менее 20 символов.</string>
+    <string name="name_should_be_less_then_50_characters">Имя должно быть менее 50 символов</string>
+    <string name="password_isn_t_correct_please_try_again_incorrect_attempt_1_d_2_d">Неверный пароль. Пожалуйста, попробуйте еще раз. Неправильная попытка (%1$d/%2$d).</string>
+    <string name="your_message_will_delete_in_s">Ваше Сообщение будет удалено через %s</string>
+    <string name="s_not_in_your_friend_list_to_send_message_you_have_to_add_this_contact_to_in_you_contact_list">%s не в вашем списке друзей, чтобы отправить сообщение, вы должны добавить этот контакт в свой список контактов.</string>
+    <string name="successfully_copied">Успешно скопировано</string>
+    <string name="if_you_reject_permission_you_can_not_use_this_service_n_nplease_turn_on_permissions_at_setting_permission">Если вы отклоняете разрешение, вы не можете использовать эту услугу. Включите разрешения в [Setting]> [Permission]></string>
+    <string name="audio_cannot_be_decrypted_try_again">Аудио не может быть расшифровано. Попробуй еще раз!</string>
+    <string name="no_media_selected">Не выбран медиа.</string>
+    <string name="user_s_public_key_not_found">Открытый ключ пользователя не найден!</string>
+    <string name="something_went_wrong">Что-то пошло не так!</string>
+    <string name="contact_details">Контактная информация</string>
+    <string name="contact_already_exists">Контакт уже существует!</string>
+    <string name="contact_added_successfully">Успешно добавлен контакт</string>
+    <string name="forward_to">Вперед&#8230;</string>
+    <string name="file_not_sent">Файл не отправлен!</string>
+    <string name="you_are_no_longer_member_of_the_group">Вы больше не являетесь членом этой группы!</string>
+    <string name="messages_not_selected">Сообщения не выбраны!</string>
+    <string name="group_name_field_is_required">Поле имени группы обязательно</string>
+    <string name="group_name_should_be_maximum_20_characters">Имя группы должно быть не более 20 символов.</string>
+    <string name="please_select_at_least_1_contact_to_create_group">Выберите хотя бы 1 контакт для создания группы</string>
+    <string name="remove_member">Удалить элемент</string>
+    <string name="are_you_sure_to_remove_1_s_from_group_2_s">Вы действительно хотите удалить %1$s из группы %2$s?</string>
+    <string name="group_name_changed_successfully">Название группы успешно изменено</string>
+    <string name="please_try_again_later">Пожалуйста, повторите попытку позже !</string>
+    <string name="no_internet_connection_please_try_again_later">Нет соединения с интернетом. Пожалуйста, повторите попытку позже!</string>
+    <string name="press_back_again_to_close_real_apps_chat">Нажмите еще раз, чтобы закрыть Протективный чат.</string>
+    <string name="cache_cleared_successfully">Кэш успешно очищен.</string>
+    <string name="no_pictures_selected">Изображений не выбрано.</string>
+    <string name="title_should_be_unique">Название должно быть уникальным</string>
+    <string name="title_or_body_cannot_be_left_empty">Название или Тело нельзя оставлять пустыми.</string>
+    <string name="file_already_exist_please_change_name">Файл уже существует, измените имя.</string>
+    <string name="do_you_want_to_discard_personal_notes">Вы хотите отказаться от личных заметок?</string>
+    <string name="saved_successfully">Успешно сохранено</string>
+    <string name="select_contacts">Выберите Контакты</string>
+    <string name="select_saved_message">Выберите сохраненное сообщение</string>
+    <string name="select_picture">Выбрать изображение</string>
+    <string name="select_personal_notes">Выберите Персональные заметки</string>
+    <string name="picture_cannot_be_decrypted_try_again">Изображение не может быть расшифровано. Попробуй еще раз!</string>
+    <string name="ecc_id_s">Идентификатор ECC: %s</string>
+    <string name="delete_selected_d_chat">Удалить выбранное %d Чат</string>
+    <string name="delete_all_chats">Удалить все чаты</string>
+    <string name="delete_d_contact">Удалить %d Контакт</string>
+    <string name="delete_all_contact">Удалить все Контакт</string>
+    <string name="d_attempts">%d попыток</string>
+    <string name="small">Маленький</string>
+    <string name="large">большой</string>
+    <string name="account_updated_successfully">Аккаунт успешно обновлен</string>
+    <string name="select_tone">Выбрать тон</string>
+    <string name="please_accept_the_permissions">Пожалуйста, примите разрешения!</string>
+    <string name="change_language">изменение языка</string>
+    <string name="change_language_colon">изменение языка:</string>
+    <string name="items">&#032;Предметы</string>
+    <string name="pending">в ожидании</string>
+    <string name="share_to">Поделиться с...</string>
+    <string name="your_message_will_delete_in">Ваше сообщение будет удалено</string>
+    <string name="file_already_saved">File is already saved</string>
+    <string name="pass_length_msg">Password should be minimum 6 characters  or maximum 20 character.</string>
+    <string name="duress_pass_length_msg">Duress password should be minimum 6 characters or maximum 20 character.</string>
+    <string name="nick_name_should_be_unique">Nick name of contact should be unique.</string>
+    <string name="contact_name_should_be_unique">Alias name should be unique</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="fragment_group_chat">Group Chat</string>
+    <string name="more">More</string>
+    <string name="save_chat">Save Chat</string>
+
+</resources>

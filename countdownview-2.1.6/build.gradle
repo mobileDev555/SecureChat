@@ -1,0 +1,5 @@
+configurations.maybeCreate("default")
+
+dependencies {
+}
+artifacts.add("default", file('countdownview-2.1.6.aar'))

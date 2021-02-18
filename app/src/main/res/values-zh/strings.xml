@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">SS Chat</string>
+
+    <string name="navigation_drawer_open">打開導航抽屜</string>
+    <string name="navigation_drawer_close">關閉導航抽屜</string>
+
+    <string name="action_settings">設置</string>
+
+    <string name="fragment_chat">聊天</string>
+    <string name="fragment_contact">聯絡</string>
+    <string name="fragment_vault">儲存位置</string>
+    <string name="fragment_setting">@string/action_settings</string>
+    <string name="title_activity_chat_window">ChatWindowActivity</string>
+    <string name="title_activity_group_chat_window">GroupChatWindowActivity</string>
+    <string name="dialog_alert_title">注意</string>
+
+    <string name="permission_rationale_message">您已拒絕我們申請授權，請同意授權，否則該功能無法正常使用！</string>
+    <string name="permission_denied_forever_message">我們需要你拒絕的一些權限或系統無法應用失敗，請手動設置為頁面授權，否則該功能無法正常使用！</string>
+    <string name="camera_and_location_rationale">共享圖像需要這些權限。</string>
+    <string name="title_message_notification">新通知 (s)</string>
+
+    <!-- Burn Time Array List -->
+    <array name="burn_time">
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""12</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""45</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""40</item>
+        <item>""50</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""12</item>
+        <item>""18</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+
+    </array>
+
+    <string name="title_activity_photo_view">圖片</string>
+    <string name="dummy_button">虛擬按鈕</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_contact_details">ContactDetailsActivity</string>
+
+    <string name="uploading">上傳了[[UPLOADED_FILES]]的[[TOTAL_FILES]], 在[[UPLOAD_RATE]] - [[PROGRESS]]</string>
+    <string name="upload_success">上傳在[[ELAPSED_TIME]]年成功完成</string>
+    <string name="upload_error">上傳時出錯</string>
+    <string name="upload_cancelled">上傳已被取消</string>
+    <string name="cancel_upload">取消</string>
+
+    <string name="you_cant_send_messages_group">您無法向該群組發送消息，因為您不再是該群組的成員。</string>
+    <string name="yes">是</string>
+    <string name="no">沒有</string>
+    <string name="send">發送</string>
+    <string name="name">名稱</string>
+    <string name="ecc_id">ECC ID</string>
+    <string name="group_name">團隊名字</string>
+    <string name="delete">刪除</string>
+    <string name="voice_call">語音通話</string>
+    <string name="change_name">更換名字</string>
+    <string name="send_message">發送訊息</string>
+    <string name="_00_00">00:00</string>
+    <string name="slide_to_cancel">滑動取消</string>
+    <string name="group_name_colon">團隊名字 ：</string>
+    <string name="create_group">創建組</string>
+    <string name="title">標題：</string>
+    <string name="body">身體：</string>
+    <string name="title_simple">標題</string>
+    <string name="body_simple">身體</string>
+    <string name="leave_group">離開組</string>
+    <string name="cancel">@string/cancel_upload</string>
+    <string name="add_contact">增加聯繫人</string>
+    <string name="ecc_id_colon">ECC ID :</string>
+    <string name="alias_colon">別名：</string>
+    <string name="save">存檔</string>
+    <string name="pictures">圖片</string>
+    <string name="camera">相機</string>
+    <string name="contacts">往來</string>
+    <string name="notes">筆記</string>
+    <string name="change_group_name">更改群組名稱</string>
+    <string name="update">更新</string>
+    <string name="screen_name_colon">屏幕名稱 ：</string>
+    <string name="name_colon">名稱 ：</string>
+    <string name="destruct_time">破壞時間</string>
+    <string name="you_are_on_the_last_attemp_if_incorrect_your_data_will_be_security_wiped">你是最後一次嘗試。如果不正確，您的數據將被刪除</string>
+    <string name="ok">好</string>
+
+    <string name="message">信息</string>
+    <string name="discard">丟棄</string>
+    <string name="delete_all">刪除所有</string>
+    <string name="loading">載入中&#8230;</string>
+    <string name="please_wait">請稍候&#8230;</string>
+    <string name="license_key">註冊碼</string>
+    <string name="activate">啟用</string>
+    <string name="chat">CHAT</string>
+    <string name="password">密碼</string>
+    <string name="set_screen_name_and_password">設置屏幕名稱和密碼</string>
+    <string name="screen_name">屏幕名稱</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="profile_settings">檔案設置</string>
+    <string name="max_password_attempts">最大密碼嘗試：</string>
+    <string name="select_ringtone">選擇鈴聲：</string>
+    <string name="default_word">默認</string>
+    <string name="font_size_colon">字體大小：</string>
+    <string name="medium">中</string>
+    <string name="account_settings">帳號設定</string>
+    <string name="lock_time_colon">鎖定時間：</string>
+    <string name="immediately">立即</string>
+    <string name="account_password_colon">戶口密碼：</string>
+    <string name="star_series">********</string>
+    <string name="current_password">當前密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="enter_key_to_send_message_colon">輸入密鑰發送消息：</string>
+    <string name="duress_password_colon">脅迫密碼：</string>
+    <string name="duress_password">脅迫密碼</string>
+    <string name="ecc_public_key_colon">Ecc公鑰：</string>
+    <string name="ecc_public_keys">ECC公鑰</string>
+    <string name="chats">聊天</string>
+    <string name="username">用戶名</string>
+    <string name="audio">音頻</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="_10_22_pm">10:22 PM</string>
+    <string name="contact_single">聯繫</string>
+    <string name="image">圖片</string>
+    <string name="personal_note">個人筆記</string>
+    <string name="video">視頻</string>
+    <string name="admin">管理員</string>
+    <string name="rename">改名</string>
+    <string name="vault">拱頂</string>
+    <string name="settings">@string/action_settings</string>
+    <string name="clear_cache">清除緩存</string>
+    <string name="lock">鎖</string>
+    <string name="search">搜索</string>
+    <string name="new_message">新訊息</string>
+    <string name="destruct_timer">破壞計時器</string>
+    <string name="mute_notification">靜音通知</string>
+    <string name="group_information">群組資訊</string>
+    <string name="share_from_vault">從儲存位置分享</string>
+    <string name="personal_notes">個人筆記</string>
+    <string name="chat_messages">聊天訊息</string>
+    <string name="save_to_vault">保存到Vault</string>
+    <string name="forward">轉寄</string>
+    <string name="copy">複製</string>
+    <string name="add_member">添加會員</string>
+    <string name="edit_group_name">編輯組名稱</string>
+    <string name="remove_from_group">從組中刪除</string>
+    <string name="edit">編輯</string>
+    <string name="share">分享</string>
+    <string name="password_field_is_required">密碼字段是必需的。</string>
+    <string name="confirm_password_field_is_required">確認密碼字段是必需的。</string>
+    <string name="password_must_contain_at_least_one_digit_one_lowercase_one_uppercase_one_special_character">密碼必須至少包含一個數字，一個小寫，一個大寫，一個特殊字符</string>
+    <string name="required">需要</string>
+    <string name="incorrect_current_password_please_try_again">當前密碼不正確。請再試一次。</string>
+    <string name="new_password_should_be_different_from_old_password">新密碼應與舊密碼不同。</string>
+    <string name="duress_password_should_be_different_from_application_password">脅迫密碼應與應用程序密碼不同</string>
+    <string name="application_password_should_be_different_from_duress_password">應用程序密碼應與脅迫密碼不同。</string>
+    <string name="app_unlock_password_field_is_required">應用程序解鎖密碼字段是必需的。</string>
+    <string name="you_are_on_your_last_attempt_if_incorrect_your_data_will_be_security_wiped">你是最後一次嘗試。如果不正確，您的數據將被安全擦除。</string>
+    <string name="password_isn_t_correct_try_again">密碼不正確。再試一次。</string>
+    <string name="please_enter_valid_email_id">請輸入有效的電子郵件ID。</string>
+    <string name="screen_name_is_required">屏幕名稱是必需的。</string>
+    <string name="length_must_be_between_6_to_15_characters">長度必須介於6到15個字符之間！</string>
+    <string name="password_and_confirm_password_does_not_match">密碼和確認密碼不匹配。</string>
+    <string name="current_password_field_is_required">當前密碼字段是必需的</string>
+    <string name="duress_password_field_is_required">脅迫密碼字段是必需的</string>
+    <string name="new_password_field_is_required">需要新密碼字段。</string>
+    <string name="ecc_id_field_is_required">ECC ID字段是必需的。</string>
+    <string name="screen_name_field_is_required">屏幕名稱字段是必需的。</string>
+    <string name="alias_field_is_required">別名字段是必需的。</string>
+    <string name="add_contacts_first">首先添加聯繫人</string>
+    <string name="you_have_one_new_friend_request">你有一個新的朋友請求。</string>
+    <string name="friend_request_accepted_by_s">朋友請求被%s接受。</string>
+    <string name="password_must_be_of_6_digit_and_must_contain_at_least_one_digit_one_character">密碼必須為6位數，且必須至少包含一個數字，一個字符</string>
+    <string name="new_messages_s">新消息 (%d)</string>
+    <string name="please_enter_valid_ecc_id">請輸入有效的ecc id</string>
+    <string name="cannot_add_own_ecc_id_in_contacts">無法在聯繫人中添加自己的ECC ID。</string>
+    <string name="no_internet_connection">沒有網絡連接。</string>
+    <string name="contact_is_added_already">已添加聯繫人。</string>
+    <string name="please_try_again">請再試一次。</string>
+    <string name="group_name_should_be_less_then_25_characters">組名應小於25個字符。</string>
+    <string name="alias_name_should_be_less_then_20_characters">別名應小於20個字符。</string>
+    <string name="screen_name_should_be_less_then_20_characters">屏幕名稱應少於20個字符</string>
+    <string name="name_should_be_less_then_50_characters">名稱應少於50個字符</string>
+    <string name="password_isn_t_correct_please_try_again_incorrect_attempt_1_d_2_d">密碼不正確。請再試一次。嘗試不正確 (%1$d/%2$d)。</string>
+    <string name="your_message_will_delete_in_s">您的郵件將在%s</string>
+    <string name="s_not_in_your_friend_list_to_send_message_you_have_to_add_this_contact_to_in_you_contact_list">%s 不在您的朋友列表中，要發送消息，您必須將此聯繫人添加到您的聯繫人列表中。</string>
+    <string name="successfully_copied">成功複製</string>
+    <string name="if_you_reject_permission_you_can_not_use_this_service_n_nplease_turn_on_permissions_at_setting_permission">如果拒絕權限，則無法使用此服務。請在[設置]> [權限]>中打開權限</string>
+    <string name="audio_cannot_be_decrypted_try_again">音頻無法解密。再試一次！</string>
+    <string name="no_media_selected">沒有選擇媒體。</string>
+    <string name="user_s_public_key_not_found">找不到用戶的公鑰！</string>
+    <string name="something_went_wrong">出了些問題！</string>
+    <string name="contact_details">聯繫人詳情</string>
+    <string name="contact_already_exists">聯繫已經存在！</string>
+    <string name="contact_added_successfully">聯繫已成功添加</string>
+    <string name="forward_to">轉發&#8230;</string>
+    <string name="file_not_sent">文件未發送！</string>
+    <string name="you_are_no_longer_member_of_the_group">您不再是該組的成員！</string>
+    <string name="messages_not_selected">消息未選中！</string>
+    <string name="group_name_field_is_required">組名字段是必需的</string>
+    <string name="group_name_should_be_maximum_20_characters">組名最多20個字符。</string>
+    <string name="please_select_at_least_1_contact_to_create_group">請選擇至少1個聯繫人以創建群組</string>
+    <string name="remove_member">刪除會員</string>
+    <string name="are_you_sure_to_remove_1_s_from_group_2_s">你確定要刪除組%2$s中的%1$s嗎？</string>
+    <string name="group_name_changed_successfully">組名已成功更改</string>
+    <string name="please_try_again_later">請稍後再試 ！</string>
+    <string name="no_internet_connection_please_try_again_later">沒有網絡連接。請稍後再試！</string>
+    <string name="press_back_again_to_close_real_apps_chat">再按一次關閉Shadow Secure Chat。</string>
+    <string name="cache_cleared_successfully">緩存成功清除。</string>
+    <string name="no_pictures_selected">沒有選擇圖片。</string>
+    <string name="title_should_be_unique">標題應該是唯一的</string>
+    <string name="title_or_body_cannot_be_left_empty">標題或正文不能留空。</string>
+    <string name="file_already_exist_please_change_name">文件已存在，請更改名稱。</string>
+    <string name="do_you_want_to_discard_personal_notes">您要丟棄個人筆記嗎？</string>
+    <string name="saved_successfully">保存成功</string>
+    <string name="select_contacts">選擇聯繫人</string>
+    <string name="select_saved_message">選擇已保存的消息</string>
+    <string name="select_picture">選擇圖片</string>
+    <string name="select_personal_notes">選擇個人筆記</string>
+    <string name="picture_cannot_be_decrypted_try_again">圖片無法解密。再試一次！</string>
+    <string name="ecc_id_s">ECC ID : %s</string>
+    <string name="delete_selected_d_chat">刪除所選的%d個聊天</string>
+    <string name="delete_all_chats">刪除所有聊天</string>
+    <string name="delete_d_contact">刪除%d個聯繫人</string>
+    <string name="delete_all_contact">刪除所有聯繫人</string>
+    <string name="d_attempts">%d次嘗試</string>
+    <string name="small">小</string>
+    <string name="large">大</string>
+    <string name="account_updated_successfully">帳戶已成功更新</string>
+    <string name="select_tone">選擇音調</string>
+    <string name="please_accept_the_permissions">請接受權限！</string>
+    <string name="change_language">改變語言</string>
+    <string name="change_language_colon">改變語言:</string>
+    <string name="items">&#032;項目</string>
+    <string name="pending">有待</string>
+    <string name="share_to">分享给...</string>
+    <string name="your_message_will_delete_in">您的邮件将被删除</string>
+    <string name="file_already_saved">File is already saved</string>
+    <string name="pass_length_msg">Password should be minimum 6 characters  or maximum 20 character.</string>
+    <string name="duress_pass_length_msg">Duress password should be minimum 6 characters or maximum 20 character.</string>
+    <string name="nick_name_should_be_unique">Nick name of contact should be unique.</string>
+    <string name="contact_name_should_be_unique">Alias name should be unique</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="fragment_group_chat">Group Chat</string>
+    <string name="more">More</string>
+    <string name="save_chat">Save Chat</string>
+
+</resources>

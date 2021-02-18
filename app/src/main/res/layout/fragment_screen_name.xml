@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_file">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/logo_lyr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/img_logo"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/logo" />
+
+            </LinearLayout>
+
+            <include layout="@layout/logo_without_name_lyr" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/logo_lyr"
+                android:layout_marginLeft="@dimen/login_layer_left_margin"
+                android:layout_marginRight="@dimen/login_layer_right_margin"
+                android:layout_marginBottom="@dimen/login_layer_bottom_margin"
+                android:gravity="bottom|center_horizontal"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txt_set_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/arialbold"
+                    android:text="Set Name and Password"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+
+                <EditText
+                    android:id="@+id/edt_screen_name"
+                    style="@style/edit_text_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:visibility="gone" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="#3e3e3e">
+
+
+                    <EditText
+                        android:id="@+id/edt_password"
+                        style="@style/edit_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/verdana_regular"
+                        android:gravity="center"
+                        android:hint="PASSWORD"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:textSize="13sp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="#3e3e3e">
+
+
+                    <EditText
+                        android:id="@+id/edt_confrm_password"
+                        style="@style/edit_text_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/verdana_regular"
+                        android:gravity="center"
+                        android:hint="REPEAT PASSWORD"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPassword"
+                        android:textSize="13sp" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/button_top_margin"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        style="@style/button_style"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:text="Cancel"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn_save"
+                        style="@style/button_style"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/verdana_bold"
+                        android:text="NEXT"
+                        android:textAllCaps="true" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

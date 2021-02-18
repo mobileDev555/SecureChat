@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackgroundBorderless"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/quicksandbold"
+        android:text="@string/username"
+        android:textColor="@color/colorAccent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/circular_gray"
+            android:padding="5dp"
+            android:src="@drawable/img_forward" />
+
+        <ImageView
+            android:id="@+id/img_edited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:padding="5dp"
+            app:srcCompat="@drawable/ic_edit" />
+
+
+        <LinearLayout
+            android:id="@+id/lyr_parent"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_my_message"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@drawable/ic_video" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksandbold"
+                android:text="@string/video"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="6dp"
+            android:button="@drawable/custom_check_box"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+
+            android:id="@+id/txt_message_destruction_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/quicksandregular"
+            android:text="@string/_3_hours"
+            android:textColor="@color/orange"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/txt_message_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksandregular"
+            android:text="@string/_10_22_pm"
+            android:textColor="@color/message_destruction_time_colour"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/img_msg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_read" />
+
+    </LinearLayout>
+</LinearLayout>

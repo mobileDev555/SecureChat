@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e1f22</color>
+    <color name="colorPrimaryDark">#050505</color>
+    <color name="colorAccent">#0dbbb6</color>
+    <color name="colorAccentGrey">#9EA3A2</color>
+    <color name="colorAccentGrey2">#414242</color>
+
+    <color name="transperent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="orange">#ca7700</color>
+    <color name="chat_blue">#0dbbb6</color>
+    <color name="chat_bubble">#0dbfba</color>
+    <color name="badge_icon_bg">#0dbbb6</color>
+    <color name="deletebackgroundcolor">#ca0048</color>
+    <color name="badge_icon_bg_red">#c62828</color>
+    <color name="navigationbar">#121213</color>
+
+    <color name="Edit_text_background">#27282c</color>
+    <color name="Edit_text_hint_color">#636467</color>
+    <color name="Edit_text_color">#ffffff</color>
+
+    <color name="buttoncolor">#0dbbb6</color>
+    <color name="button_text_color">#ffffff</color>
+
+    <color name="color_chat_list_item">#171718</color> // Menu BG Color
+
+    <color name="setting_text_color">#626262</color>
+    <color name="barcolor">#0dbbb6</color>
+    <color name="black_effective">#2a2a2a</color>
+
+    <color name="color_contact_child_list_item">#242526</color>
+    <color name="text_gray">#6c7877</color>
+    <color name="border">#0dbbb6</color>
+
+    <!-- slidebar-->
+    <color name="slidebarcolor">#101113</color>
+
+    <!--background Color-->
+    <color name="loginbackground">#0d0d0d</color>
+    <color name="mainbackground">#191919</color>
+
+    <color name="darker_grey">#1e1f22</color>
+    <color name="light_black">#2c2d31</color>   <!--App Background Colour-->
+    <color name="medium_grey">#232427</color>   <!--Contact Circle Colour-->
+    <color name="lightest_green_blue">#0dbbb6</color>   <!--Drop Down Arrow Colour-->
+    <color name="chat_text_colour">#6c7877</color>   <!--Drop Down Arrow Colour-->
+    <color name="et_background">#27282c</color>   <!--Drop Down Arrow Colour-->
+    <color name="et_text_hint">#636467</color>   <!--Drop Down Arrow Colour-->
+    <color name="tab_background_selected">#0dbbb6</color>
+    <color name="tab_background_unselected">#1E1E1E</color>
+    <color name="tab_background_selected2">#8B8E8E</color>
+    <color name="message_destruction_time_colour">#ffffff</color>
+    <color name="subtextcolor">#626262</color>
+    <color name="black_overlay">#66000000</color>   <!--Background of tab when selected with down arrow-->
+
+    <!-- slidebar-->
+    <color name="dial_edittext_bg">#0C3E5A</color>
+
+    <color name="in_call_bg_transparent3">#55020101</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="time_stamp">#606875</color>
+    <color name="user_icon_bg">#4E5359</color>
+    <color name="unselectedtab_color">#a9a9a9</color>
+    <color name="account_unregistered">#FFFFC200</color>
+    <color name="account_valid">#FF84E300</color>
+    <color name="account_error">#FFFF0F00</color>
+    <color name="account_inactive">#FF646464</color>
+    <color name="balance_header">#266b9b</color>
+    <color name="num_selected">#00000000</color>
+
+    <color name="setting_text_color_secondry">#0dbfba</color>
+    <color name="bg_permission_icon">#C1C0C0</color>
+
+</resources>

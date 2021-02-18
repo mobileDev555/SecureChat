@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chat_Work_RA01.iml" filepath="$PROJECT_DIR$/Chat_Work_RA01.iml" group="Chat_Work_RA01" />
+      <module fileurl="file://$PROJECT_DIR$/app/Chat_Work_RA01-app.iml" filepath="$PROJECT_DIR$/app/Chat_Work_RA01-app.iml" group="Chat_Work_RA01/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/Chat_Work_RA011-app.iml" filepath="$PROJECT_DIR$/app/Chat_Work_RA011-app.iml" group="Chat_Work_RA011/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/Work-6-romania-android-like-whatsapp-Chat_Work_RA01-app.iml" filepath="$PROJECT_DIR$/app/Work-6-romania-android-like-whatsapp-Chat_Work_RA01-app.iml" group="Chat_Work_RA01/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/Work-6-romania-android-like-whatsapp-Chat_Work_RA01-app~1.iml" filepath="$PROJECT_DIR$/app/Work-6-romania-android-like-whatsapp-Chat_Work_RA01-app~1.iml" group="Chat_Work_RA01/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Chat_Work/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/romania-android-like-whatsapp-Chat_Work_RA01-app.iml" filepath="$PROJECT_DIR$/app/romania-android-like-whatsapp-Chat_Work_RA01-app.iml" group="Chat_Work_RA01/app" />
+      <module fileurl="file://$PROJECT_DIR$/slidetounlock/slidetounlock.iml" filepath="$PROJECT_DIR$/slidetounlock/slidetounlock.iml" group="Chat_Work_RA01/slidetounlock" />
+    </modules>
+  </component>
+</project>

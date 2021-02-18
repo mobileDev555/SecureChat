@@ -1,0 +1,283 @@
+<resources>
+    <string name="app_name">SS Chat</string>
+
+    <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+
+    <string name="action_settings">Configuraciones</string>
+
+    <string name="fragment_chat">Chat</string>
+    <string name="fragment_contact">Contactos</string>
+    <string name="fragment_vault">Bóveda</string>
+    <string name="fragment_setting">@string/action_settings</string>
+    <string name="title_activity_chat_window">ChatWindowActivity</string>
+    <string name="title_activity_group_chat_window">GroupChatWindowActivity</string>
+    <string name="dialog_alert_title">Atención</string>
+
+    <string name="permission_rationale_message">Nos ha rechazado para solicitar la autorización, acuerde la autorización, de lo contrario, la función no se puede usar normalmente.</string>
+    <string name="permission_denied_forever_message">Necesitamos que algunos de los permisos que rechazó o el sistema no se haya podido aplicar hayan fallado, configure manualmente la autorización de la página, de lo contrario, la función no se puede usar normalmente.</string>
+    <string name="camera_and_location_rationale">Se requiere este permiso para compartir imágenes.</string>
+    <string name="title_message_notification">Nueva notificación (s)</string>
+
+    <!-- Burn Time Array List -->
+    <array name="burn_time">
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""12</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""45</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""10</item>
+        <item>""15</item>
+        <item>""20</item>
+        <item>""30</item>
+        <item>""40</item>
+        <item>""50</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+        <item>""8</item>
+        <item>""9</item>
+        <item>""12</item>
+        <item>""18</item>
+        <item>""1</item>
+        <item>""2</item>
+        <item>""3</item>
+        <item>""4</item>
+        <item>""5</item>
+        <item>""6</item>
+        <item>""7</item>
+
+    </array>
+
+    <string name="title_activity_photo_view">Imágenes</string>
+    <string name="dummy_button">Botón simulado</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_contact_details">ContactDetailsActivity</string>
+
+    <string name="uploading">Uploaded [[UPLOADED_FILES]] of [[TOTAL_FILES]] at [[UPLOAD_RATE]] - [[PROGRESS]]</string>
+    <string name="upload_success">La carga se completó exitosamente en [[ELAPSED_TIME]]</string>
+    <string name="upload_error">Error al cargar</string>
+    <string name="upload_cancelled">La carga ha sido cancelada</string>
+    <string name="cancel_upload">Cancelar</string>
+
+    <string name="you_cant_send_messages_group">No puede enviar mensajes a este grupo porque ya no es miembro del grupo.</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="send">Enviar</string>
+    <string name="name">Nombre</string>
+    <string name="ecc_id">ID de ECC</string>
+    <string name="group_name">Nombre del grupo</string>
+    <string name="delete">Borrar</string>
+    <string name="voice_call">Llamada de voz</string>
+    <string name="change_name">Cambiar nombre</string>
+    <string name="send_message">Enviar mensaje</string>
+    <string name="_00_00">00:00</string>
+    <string name="slide_to_cancel">Deslizar para cancelar</string>
+    <string name="group_name_colon">Nombre del grupo :</string>
+    <string name="create_group">Crea un grupo</string>
+    <string name="title">Título:</string>
+    <string name="body">Cuerpo:</string>
+    <string name="title_simple">Título</string>
+    <string name="body_simple">Cuerpo</string>
+    <string name="leave_group">Dejar grupo</string>
+    <string name="cancel">@string/cancel_upload</string>
+    <string name="add_contact">Agregar contacto</string>
+    <string name="ecc_id_colon">ID ECC:</string>
+    <string name="alias_colon">Alias :</string>
+    <string name="save">Salvar</string>
+    <string name="pictures">Imágenes</string>
+    <string name="camera">Cámara</string>
+    <string name="contacts">Contactos</string>
+    <string name="notes">Notas</string>
+    <string name="change_group_name">Cambiar el nombre del grupo</string>
+    <string name="update">Actualizar</string>
+    <string name="screen_name_colon">Nombre de pantalla :</string>
+    <string name="name_colon">Nombre :</string>
+    <string name="destruct_time">Destruir el tiempo</string>
+    <string name="you_are_on_the_last_attemp_if_incorrect_your_data_will_be_security_wiped">Estás en el último intento. Si es incorrecto, sus datos serán borrados</string>
+    <string name="ok">OK</string>
+
+    <string name="message">Mensaje</string>
+    <string name="discard">Descarte</string>
+    <string name="delete_all">Eliminar todos</string>
+    <string name="loading">Cargando&#8230;</string>
+    <string name="please_wait">Por favor espera&#8230;</string>
+    <string name="license_key">Clave de licencia</string>
+    <string name="activate">Activar</string>
+    <string name="chat">CHAT</string>
+    <string name="password">Contraseña</string>
+    <string name="set_screen_name_and_password">Establecer nombre de pantalla y contraseña</string>
+    <string name="screen_name">Nombre de pantalla</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="profile_settings">Configuración de perfil</string>
+    <string name="max_password_attempts">Intentos máximos de contraseña:</string>
+    <string name="select_ringtone">Seleccionar tono de llamada:</string>
+    <string name="default_word">Defecto</string>
+    <string name="font_size_colon">Tamaño de fuente:</string>
+    <string name="medium">Medio</string>
+    <string name="account_settings">Configuraciones de la usuario</string>
+    <string name="lock_time_colon">Tiempo de bloqueo:</string>
+    <string name="immediately">Inmediatamente</string>
+    <string name="account_password_colon">Contraseña de la cuenta:</string>
+    <string name="star_series">********</string>
+    <string name="current_password">contraseña actual</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="enter_key_to_send_message_colon">Ingrese la clave para enviar el mensaje:</string>
+    <string name="duress_password_colon">Contraseña de coacción:</string>
+    <string name="duress_password">Contraseña de Duress</string>
+    <string name="ecc_public_key_colon">Clave pública ecc:</string>
+    <string name="ecc_public_keys">Claves públicas de ECC</string>
+    <string name="chats">Chats</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="audio">Audio</string>
+    <string name="_3_hours">3 hours</string>
+    <string name="_10_22_pm">10:22 PM</string>
+    <string name="contact_single">Contacto</string>
+    <string name="image">Imagen</string>
+    <string name="personal_note">Nota personal</string>
+    <string name="video">Vídeo</string>
+    <string name="admin">ADMIN</string>
+    <string name="rename">Rebautizar</string>
+    <string name="vault">Bóveda</string>
+    <string name="settings">@string/action_settings</string>
+    <string name="clear_cache">Limpiar cache</string>
+    <string name="lock">Bloquear</string>
+    <string name="search">Buscar</string>
+    <string name="new_message">Nuevo mensaje</string>
+    <string name="destruct_timer">Destruir temporizador</string>
+    <string name="mute_notification">Notificación silenciosa</string>
+    <string name="group_information">Información del grupo</string>
+    <string name="share_from_vault">Compartir desde Vault</string>
+    <string name="personal_notes">Notas personales</string>
+    <string name="chat_messages">Mensajes de chat</string>
+    <string name="save_to_vault">Guardar en Vault</string>
+    <string name="forward">Reenviar</string>
+    <string name="copy">Copiar</string>
+    <string name="add_member">AAñadir miembro</string>
+    <string name="edit_group_name">Editar el nombre del grupo</string>
+    <string name="remove_from_group">Sacar del grupo</string>
+    <string name="edit">Editar</string>
+    <string name="share">Compartir</string>
+    <string name="password_field_is_required">El campo de contraseña es obligatorio.</string>
+    <string name="confirm_password_field_is_required">Confirmar campo de contraseña es obligatorio.</string>
+    <string name="password_must_contain_at_least_one_digit_one_lowercase_one_uppercase_one_special_character">La contraseña debe contener al menos un dígito, una minúscula, una mayúscula, un carácter especial</string>
+    <string name="required">Necesario</string>
+    <string name="incorrect_current_password_please_try_again">Contraseña actual incorrecta. Inténtalo de nuevo.</string>
+    <string name="new_password_should_be_different_from_old_password">La nueva contraseña debe ser diferente de la contraseña anterior.</string>
+    <string name="duress_password_should_be_different_from_application_password">La contraseña de Duress debe ser diferente de la contraseña de la Aplicación</string>
+    <string name="application_password_should_be_different_from_duress_password">La contraseña de la aplicación debe ser diferente de la contraseña de coacción.</string>
+    <string name="app_unlock_password_field_is_required">El campo Contraseña de desbloqueo de la aplicación es obligatorio.</string>
+    <string name="you_are_on_your_last_attempt_if_incorrect_your_data_will_be_security_wiped">Estás en tu último intento. Si es incorrecto, sus datos serán borrados de seguridad.</string>
+    <string name="password_isn_t_correct_try_again">La contraseña no es correcta Inténtalo de nuevo.</string>
+    <string name="please_enter_valid_email_id">Por favor ingrese una identificación de correo electrónico válida.</string>
+    <string name="screen_name_is_required">El nombre de pantalla es obligatorio.</string>
+    <string name="length_must_be_between_6_to_15_characters">¡La longitud debe tener entre 6 y 15 caracteres!</string>
+    <string name="password_and_confirm_password_does_not_match">La contraseña y confirmar contraseña no coincide.</string>
+    <string name="current_password_field_is_required">El campo de contraseña actual es obligatorio</string>
+    <string name="duress_password_field_is_required">El campo de contraseña de coacción es obligatorio</string>
+    <string name="new_password_field_is_required">Se requiere un nuevo campo de contraseña.</string>
+    <string name="ecc_id_field_is_required">El campo ID de ECC es obligatorio.</string>
+    <string name="screen_name_field_is_required">El campo Nombre de Pantalla es requerido.</string>
+    <string name="alias_field_is_required">El campo alias es obligatorio.</string>
+    <string name="add_contacts_first">Agregar contactos primero</string>
+    <string name="you_have_one_new_friend_request">Tienes una nueva solicitud de amistad.</string>
+    <string name="friend_request_accepted_by_s">Solicitud de amistad aceptada por %s.</string>
+    <string name="password_must_be_of_6_digit_and_must_contain_at_least_one_digit_one_character">La contraseña debe ser de 6 dígitos y debe contener al menos un dígito, un carácter</string>
+    <string name="new_messages_s">Nuevos mensajes (%d)</string>
+    <string name="please_enter_valid_ecc_id">Por favor ingrese un idc ecc válido</string>
+    <string name="cannot_add_own_ecc_id_in_contacts">No se puede agregar una ID de ECC propia en los contactos.</string>
+    <string name="no_internet_connection">Sin conexión a Internet.</string>
+    <string name="contact_is_added_already">El contacto ya está agregado.</string>
+    <string name="please_try_again">Inténtalo de nuevo.</string>
+    <string name="group_name_should_be_less_then_25_characters">El nombre del grupo debe tener menos de 25 caracteres.</string>
+    <string name="alias_name_should_be_less_then_20_characters">El nombre de Alias ​​debe tener menos de 20 caracteres.</string>
+    <string name="screen_name_should_be_less_then_20_characters">El nombre de pantalla debe tener menos de 20 caracteres</string>
+    <string name="name_should_be_less_then_50_characters">El nombre debe tener menos de 50 caracteres</string>
+    <string name="password_isn_t_correct_please_try_again_incorrect_attempt_1_d_2_d">La contraseña no es correcta Inténtalo de nuevo. Intento incorrecto (%1$d/%2$d).</string>
+    <string name="your_message_will_delete_in_s">Su mensaje se eliminará en %s</string>
+    <string name="s_not_in_your_friend_list_to_send_message_you_have_to_add_this_contact_to_in_you_contact_list">%s no está en su lista de amigos, para enviar mensajes debe agregar este contacto en su lista de contactos.</string>
+    <string name="successfully_copied">Copiado con éxito</string>
+    <string name="if_you_reject_permission_you_can_not_use_this_service_n_nplease_turn_on_permissions_at_setting_permission">Si rechaza el permiso, no puede usar este servicio. Por favor, active los permisos en [Configuración]> [Permiso]></string>
+    <string name="audio_cannot_be_decrypted_try_again">El audio no puede ser descifrado. ¡Inténtalo de nuevo!</string>
+    <string name="no_media_selected">Sin medios seleccionados</string>
+    <string name="user_s_public_key_not_found">¡Clave pública del usuario no encontrada!</string>
+    <string name="something_went_wrong">¡Algo salió mal!</string>
+    <string name="contact_details">Detalles del contacto</string>
+    <string name="contact_already_exists">¡Ya existe contacto!</string>
+    <string name="contact_added_successfully">Contacto agregado exitosamente</string>
+    <string name="forward_to">Reenviar a&#8230;</string>
+    <string name="file_not_sent">¡Archivo no enviado!</string>
+    <string name="you_are_no_longer_member_of_the_group">¡Ya no eres miembro del grupo!</string>
+    <string name="messages_not_selected">Mensajes no seleccionados!</string>
+    <string name="group_name_field_is_required">El campo de nombre de grupo es obligatorio</string>
+    <string name="group_name_should_be_maximum_20_characters">El nombre del grupo debe tener un máximo de 20 caracteres.</string>
+    <string name="please_select_at_least_1_contact_to_create_group">Seleccione al menos 1 contacto para crear un grupo</string>
+    <string name="remove_member">Eliminar miembro</string>
+    <string name="are_you_sure_to_remove_1_s_from_group_2_s">¿Seguro que eliminar %1$s del grupo %2$s?</string>
+    <string name="group_name_changed_successfully">Nombre del grupo cambiado con éxito</string>
+    <string name="please_try_again_later">Por favor, inténtelo de nuevo más tarde !</string>
+    <string name="no_internet_connection_please_try_again_later">Sin conexión a Internet. ¡Por favor, inténtelo de nuevo más tarde!</string>
+    <string name="press_back_again_to_close_real_apps_chat">Vuelva a presionar para cerrar Shadow Secure Chat.</string>
+    <string name="cache_cleared_successfully">La memoria caché se borró con éxito.</string>
+    <string name="no_pictures_selected">No hay fotos seleccionadas.</string>
+    <string name="title_should_be_unique">Título debe ser único</string>
+    <string name="title_or_body_cannot_be_left_empty">Título o cuerpo no pueden dejarse vacíos.</string>
+    <string name="file_already_exist_please_change_name">El archivo ya existe, cambia el nombre.</string>
+    <string name="do_you_want_to_discard_personal_notes">¿Desea descartar notas personales?</string>
+    <string name="saved_successfully">Guardado exitosamente</string>
+    <string name="select_contacts">Seleccionar contactos</string>
+    <string name="select_saved_message">Seleccionar mensaje guardado</string>
+    <string name="select_picture">Seleccionar imagen</string>
+    <string name="select_personal_notes">Seleccionar notas personales</string>
+    <string name="picture_cannot_be_decrypted_try_again">La imagen no puede ser descifrada. ¡Inténtalo de nuevo!</string>
+    <string name="ecc_id_s">ID ECC: %s</string>
+    <string name="delete_selected_d_chat">Eliminar el chat seleccionado %d</string>
+    <string name="delete_all_chats">Eliminar todos los chats</string>
+    <string name="delete_d_contact">Eliminar %d contactos</string>
+    <string name="delete_all_contact">Eliminar todo contacto</string>
+    <string name="d_attempts">%d intentos</string>
+    <string name="small">Pequeña</string>
+    <string name="large">Grande</string>
+    <string name="account_updated_successfully">Cuenta actualizada con éxito</string>
+    <string name="select_tone">Seleccionar tono</string>
+    <string name="please_accept_the_permissions">Por favor, acepta los permisos!</string>
+    <string name="change_language">Cambiar idioma</string>
+    <string name="change_language_colon">Cambiar idioma:</string>
+    <string name="items">&#032;artículos</string>
+    <string name="pending">Pendiente</string>
+    <string name="share_to">Compartir a...</string>
+    <string name="your_message_will_delete_in">Tu mensaje se borrará en</string>
+    <string name="file_already_saved">File is already saved</string>
+    <string name="pass_length_msg">Password should be minimum 6 characters  or maximum 20 character.</string>
+    <string name="duress_pass_length_msg">Duress password should be minimum 6 characters or maximum 20 character.</string>
+    <string name="nick_name_should_be_unique">Nick name of contact should be unique.</string>
+    <string name="contact_name_should_be_unique">Alias name should be unique</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="group_chat">Group Chat</string>
+    <string name="fragment_group_chat">Group Chat</string>
+    <string name="more">More</string>
+    <string name="save_chat">Save Chat</string>
+
+</resources>

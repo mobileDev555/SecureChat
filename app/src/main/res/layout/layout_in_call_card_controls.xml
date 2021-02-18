@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/end_call_bar"
+    android:background="@color/transperent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/llXferCallButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llxfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                    android:id="@+id/addCallButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/user" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llxfer"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:orientation="vertical">
+
+                <com.realapps.chat.ui.ui.view.java.fontstyle.MyTextViewOpenMavenProRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Add"
+                    android:visibility="gone"
+                    android:textColor="#6E7585"
+                    android:textSize="12dp" />
+
+                <com.realapps.chat.ui.ui.view.java.fontstyle.MyTextViewOpenMavenProRegular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    android:text="Participant"
+                    android:textColor="#6E7585"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/llMute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llmute1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <!--android:id="@+id/llholdCallButton">-->
+
+                <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                    android:id="@+id/muteButton"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mic" />
+
+            </LinearLayout>
+
+            <com.realapps.chat.ui.ui.view.java.fontstyle.MyTextViewOpenMavenProRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llmute1"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_marginTop="25dp"
+                android:text="Mute"
+                android:textColor="#6E7585"
+                android:textSize="12dp" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llRecordCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/plain_border_circle"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                android:id="@+id/recordCallButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/ic_call_rec_stop" />
+
+        </LinearLayout>
+
+        <!-- <LinearLayout
+             android:id="@+id/llSpeaker"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="8dp">
+
+             <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                 android:id="@+id/speaker"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:padding="10dp"
+                 android:src="@drawable/transparent" />
+
+         </LinearLayout>-->
+        <RelativeLayout
+            android:id="@+id/llSpeaker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/llSpe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                    android:id="@+id/speaker"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/speaker" />
+
+            </LinearLayout>
+
+            <com.realapps.chat.ui.ui.view.java.fontstyle.MyTextViewOpenMavenProRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llSpe"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:text="Speaker"
+                android:visibility="gone"
+                android:textColor="#6E7585"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- <LinearLayout
+             android:id="@+id/llXferCallButton"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/plain_border_circle"
+             android:padding="8dp">
+
+             <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                 android:id="@+id/addCallButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/transparent"
+                 android:src="@drawable/ic_profile"
+                 android:padding="10dp"
+                 />
+
+         </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/llDtmfCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                android:id="@+id/dtmfCallButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llholdCallButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/plain_border_circle"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+                android:id="@+id/holdCallButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/ic_call_resume" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAddCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+            android:id="@+id/xferCallButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/transparent" />
+
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:id="@+id/llDtmfCall"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:orientation="horizontal"
+         android:clickable="true">
+
+
+     </LinearLayout>-->
+
+
+</RelativeLayout>

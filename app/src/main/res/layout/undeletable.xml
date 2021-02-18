@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_lyr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_file">
+
+
+    <LinearLayout
+        android:id="@+id/logo_lyr"
+        android:layout_width="318dp"
+        android:layout_height="154dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/logo_margin_top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="320dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/shadow_secure" />
+
+        <LinearLayout
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logo_lyr"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/login_layer_left_margin"
+        android:layout_marginRight="@dimen/login_layer_right_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/etPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white">
+
+            <EditText
+                android:id="@+id/edt_password"
+                style="@style/edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_lock_icon"
+                android:drawableLeft="@drawable/ic_lock_icon"
+                android:drawablePadding="15dp"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword|textNoSuggestions" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--  <EditText
+              android:id="@+id/edt_password"
+              style="@style/edit_text_style"
+              android:layout_width="match_parent"
+              android:drawableLeft="@drawable/ic_lock_white"
+              android:drawablePadding="@dimen/drawable_padding"
+              android:hint="Password"
+              android:focusable="true"
+              android:imeOptions="actionDone"
+              android:inputType="textPassword|textNoSuggestions"
+              android:layout_height="wrap_content" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/button_top_margin"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/button_style_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/btn_save"
+                style="@style/button_style"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/ok" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

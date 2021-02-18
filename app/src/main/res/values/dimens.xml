@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!-- margins-->
+    <dimen name="logo_margin_top">10dp</dimen>
+    <dimen name="login_layer_left_margin">40dp</dimen>
+    <dimen name="login_layer_right_margin">40dp</dimen>
+    <dimen name="login_layer_bottom_margin">20dp</dimen>
+    <dimen name="login_layer_top_margin">20dp</dimen>
+    <dimen name="button_top_margin">30dp</dimen>
+
+
+    <dimen name="drawable_padding">20dp</dimen>
+    <dimen name="edit_to_edit_margin">10dp</dimen>
+
+    <dimen name="new_message_badge_radius">25dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="normal_height">64dip</dimen>
+    <dimen name="expanded_height">128dip</dimen>
+
+</resources>

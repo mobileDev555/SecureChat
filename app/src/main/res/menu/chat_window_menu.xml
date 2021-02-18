@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_dec_time"
+        android:icon="@drawable/ic_dec_timer_white"
+        android:title="@string/destruct_timer"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_lock"
+        android:icon="@drawable/ic_lock_white"
+        android:title="@string/lock"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_mute_notification"
+        android:icon="@drawable/ic_notifications_off_white"
+        android:title="@string/mute_notification"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_group_info"
+        android:title="@string/group_information"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save_chat"
+        android:title="@string/save_chat"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/action_share_from_vault"
+        android:icon="@drawable/ic_share_white"
+        android:orderInCategory="100"
+        android:title="@string/share_from_vault"
+        app:showAsAction="never">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:HTMLCode="http://schemas.android.com/apk/res-auto">
+
+            <item
+                android:id="@+id/action_share_personal_notes"
+                android:title="@string/personal_notes"
+                HTMLCode:showAsAction="ifRoom|withText" />
+
+
+            <item
+                android:id="@+id/action_share_chat_message"
+                android:title="@string/chat_messages"
+                HTMLCode:showAsAction="ifRoom|withText" />
+
+            <item
+                android:id="@+id/action_share_image"
+                android:title="@string/pictures"
+                HTMLCode:showAsAction="ifRoom|withText" />
+
+        </menu>
+    </item>
+
+</menu>

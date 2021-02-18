@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/incall_bottom_bar_bg"
+    android:weightSum="4"
+    >
+
+    <LinearLayout
+        android:id="@+id/llSpeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clickable="true"
+        >
+
+        <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+            android:id="@+id/speakerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/speaker"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clickable="true">
+
+        <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+            android:id="@+id/muteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mic"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAddCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clickable="true">
+
+        <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+            android:id="@+id/addCallButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_add"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clickable="true">
+
+        <com.realapps.chat.ui.ui.incall.InCallCheckableImageView
+            android:id="@+id/mediaSettingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_preferences"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

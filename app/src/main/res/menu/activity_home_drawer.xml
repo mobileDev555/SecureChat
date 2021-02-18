@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/message"
+            android:title="@string/fragment_chat"
+            app:actionLayout="@layout/menu_counter" />
+
+        <!--<item
+            android:id="@+id/nav_group_chat"
+            android:icon="@drawable/img_group"
+            android:title="@string/group_chat"
+            app:actionLayout="@layout/menu_counter"/>-->
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/userr"
+            android:title="@string/contacts"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_vault"
+            android:icon="@drawable/vault"
+            android:title="@string/vault" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="@string/settings" />
+
+        <!--<item
+            android:id="@+id/ic_clear_cache"
+            android:icon="@drawable/ic_clear_cache"
+            android:title="@string/clear_cache"
+            android:checkable="false"/>
+
+        <item
+            android:id="@+id/lock"
+            android:icon="@drawable/ic_lock_white"
+            android:title="@string/lock"
+           />-->
+
+    </group>
+
+
+</menu>
